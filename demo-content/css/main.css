@@ -1,0 +1,16 @@
+.postbox {
+    padding: 30px;
+}
+@media (min-width: 1440px) {
+    .ocdi__gl-item {
+        flex: 0 0 calc(25% - 30px);
+        margin-bottom: 30px;
+        margin-right: 30px;
+    }
+}
+.ocdi__theme-about-info {
+    padding: 30px;
+}
+.vt-nav-tab .nav-tab {
+    margin-left: 0;
+}

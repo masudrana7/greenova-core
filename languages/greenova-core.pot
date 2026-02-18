@@ -1,0 +1,2458 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Greenova Core\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 04:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.0; wp-5.6\n"
+"X-Domain: greenova-core"
+
+#: vc-modules/post-grid.php:20 vc-modules/post.php:19
+#: vc-modules/project-grid.php:17 vc-modules/project-slider.php:19
+#: vc-modules/service-grid.php:17 vc-modules/team-grid.php:17
+#: vc-modules/team-slider.php:19 vc-modules/testimonial.php:17
+#: vc-modules/woo-feature-product-isotope.php:17
+#: vc-modules/woo-popular-product-slider.php:18
+#: vc-modules/woo-product-slider.php:18
+msgid "1 col"
+msgstr ""
+
+#: vc-modules/project-slider.php:314 vc-modules/team-slider.php:352
+msgid "1 Second"
+msgstr ""
+
+#: vc-modules/post.php:282 vc-modules/testimonial.php:300
+#: vc-modules/woo-popular-product-slider.php:289
+#: vc-modules/woo-product-slider.php:292
+msgid "1 Seconds"
+msgstr ""
+
+#: vc-modules/title.php:279
+msgid "10%"
+msgstr ""
+
+#: vc-modules/title.php:269
+msgid "100%"
+msgstr ""
+
+#: vc-modules/post-grid.php:21 vc-modules/post.php:20
+#: vc-modules/project-grid.php:18 vc-modules/project-slider.php:20
+#: vc-modules/service-grid.php:18 vc-modules/team-grid.php:18
+#: vc-modules/team-slider.php:20 vc-modules/testimonial.php:18
+#: vc-modules/woo-feature-product-isotope.php:18
+#: vc-modules/woo-popular-product-slider.php:19
+#: vc-modules/woo-product-slider.php:19
+msgid "2 col"
+msgstr ""
+
+#: vc-modules/post.php:281 vc-modules/project-slider.php:313
+#: vc-modules/team-slider.php:351 vc-modules/testimonial.php:299
+#: vc-modules/woo-popular-product-slider.php:288
+#: vc-modules/woo-product-slider.php:291
+msgid "2 Seconds"
+msgstr ""
+
+#: vc-modules/title.php:278
+msgid "20%"
+msgstr ""
+
+#: vc-modules/progress-bar.php:16
+msgid "2016 Solved Case"
+msgstr ""
+
+#: vc-modules/post-grid.php:22 vc-modules/post.php:21
+#: vc-modules/project-grid.php:19 vc-modules/project-slider.php:21
+#: vc-modules/service-grid.php:19 vc-modules/team-grid.php:19
+#: vc-modules/team-slider.php:21 vc-modules/testimonial.php:19
+#: vc-modules/woo-feature-product-isotope.php:19
+#: vc-modules/woo-popular-product-slider.php:20
+#: vc-modules/woo-product-slider.php:20
+msgid "3 col"
+msgstr ""
+
+#: vc-modules/post.php:280 vc-modules/project-slider.php:312
+#: vc-modules/team-slider.php:350 vc-modules/testimonial.php:298
+#: vc-modules/woo-popular-product-slider.php:287
+#: vc-modules/woo-product-slider.php:290
+msgid "3 Seconds"
+msgstr ""
+
+#: vc-modules/title.php:277
+msgid "30%"
+msgstr ""
+
+#: vc-modules/post-grid.php:23 vc-modules/post.php:22
+#: vc-modules/project-grid.php:20 vc-modules/project-slider.php:22
+#: vc-modules/service-grid.php:20 vc-modules/team-grid.php:20
+#: vc-modules/team-slider.php:22 vc-modules/testimonial.php:20
+#: vc-modules/woo-feature-product-isotope.php:20
+#: vc-modules/woo-popular-product-slider.php:21
+#: vc-modules/woo-product-slider.php:21
+msgid "4 col"
+msgstr ""
+
+#: vc-modules/post.php:279 vc-modules/project-slider.php:311
+#: vc-modules/team-slider.php:349 vc-modules/testimonial.php:297
+#: vc-modules/woo-popular-product-slider.php:286
+#: vc-modules/woo-product-slider.php:289
+msgid "4 Seconds"
+msgstr ""
+
+#: vc-modules/title.php:276
+msgid "40%"
+msgstr ""
+
+#: vc-modules/post.php:278 vc-modules/project-slider.php:310
+#: vc-modules/team-slider.php:348 vc-modules/testimonial.php:296
+#: vc-modules/woo-popular-product-slider.php:285
+#: vc-modules/woo-product-slider.php:288
+msgid "5 Seconds"
+msgstr ""
+
+#: vc-modules/title.php:275
+msgid "50%"
+msgstr ""
+
+#: vc-modules/post-grid.php:24 vc-modules/post.php:23
+#: vc-modules/project-grid.php:21 vc-modules/project-slider.php:23
+#: vc-modules/service-grid.php:21 vc-modules/team-grid.php:21
+#: vc-modules/team-slider.php:23 vc-modules/testimonial.php:21
+#: vc-modules/woo-feature-product-isotope.php:21
+#: vc-modules/woo-popular-product-slider.php:22
+#: vc-modules/woo-product-slider.php:22
+msgid "6 col"
+msgstr ""
+
+#: vc-modules/title.php:274
+msgid "60%"
+msgstr ""
+
+#: vc-modules/title.php:273
+msgid "65%"
+msgstr ""
+
+#: vc-modules/title.php:272
+msgid "70%"
+msgstr ""
+
+#: vc-modules/title.php:271
+msgid "80%"
+msgstr ""
+
+#: vc-modules/title.php:270
+msgid "90%"
+msgstr ""
+
+#: vc-modules/title.php:18
+msgid "<span>W</span>hat<span> W</span>e<span> O</span>ffer"
+msgstr ""
+
+#: vc-modules/about.php:16
+msgid "About <span class=\"greenova-primary-color\">Miako Legal</span>"
+msgstr ""
+
+#: vc-modules/title.php:17
+msgid "About <span>Us</span>"
+msgstr ""
+
+#: widgets/social-widget.php:78
+msgid "About Company"
+msgstr ""
+
+#: vc-modules/pricing-box.php:130
+msgid "Active Price Table"
+msgstr ""
+
+#: post-meta.php:341
+msgid "Add New Info"
+msgstr ""
+
+#: post-meta.php:308
+msgid "Add New Skill"
+msgstr ""
+
+#: vc-modules/views/featured-product1.php:114
+#: vc-modules/views/woo-category-product-slider.php:68
+#: vc-modules/views/woo-feature-product-slider.php:66
+#: vc-modules/views/woo-popular-product-slider-1.php:62
+#: vc-modules/views/woo-popular-product-slider-2.php:64
+#: vc-modules/views/woo-product-wise-slider.php:62
+#: vc-modules/views/woo-sale-product-slider.php:60
+msgid "Add to cart"
+msgstr ""
+
+#: post-meta.php:276 vc-modules/contact-box.php:59
+#: vc-modules/contact-info.php:57 widgets/address-widget.php:79
+#: vc-modules/views/contact-1.php:16
+msgid "Address"
+msgstr ""
+
+#: widgets/address-widget.php:13
+msgid "Address Widget"
+msgstr ""
+
+#: vc-modules/views/before-after.php:13
+msgid "After"
+msgstr ""
+
+#: vc-modules/before-after.php:31
+msgid "After Image"
+msgstr ""
+
+#: vc-modules/project-grid.php:95
+msgid "Align Button"
+msgstr ""
+
+#: vc-modules/rt-counter.php:136 vc-modules/text-with-button.php:41
+#: vc-modules/title.php:250
+msgid "Alignment"
+msgstr ""
+
+#: vc-modules/woo-product-slider.php:53
+#: vc-modules/views/featured-product1.php:84
+#: vc-modules/views/project-grid1.php:73 vc-modules/views/project-grid3.php:61
+#: vc-modules/views/project-grid5.php:61
+msgid "All"
+msgstr ""
+
+#: vc-modules/project-grid.php:37 vc-modules/service-grid.php:30
+#: vc-modules/team-grid.php:30 vc-modules/testimonial.php:37
+#: vc-modules/woo-feature-product-isotope.php:36
+msgid "All Categories"
+msgstr ""
+
+#: vc-modules/woo-product-slider.php:49
+msgid "All Sale Product"
+msgstr ""
+
+#: vc-modules/post-grid.php:81 vc-modules/post.php:89
+#: vc-modules/project-grid.php:161 vc-modules/project-slider.php:146
+#: vc-modules/service-grid.php:110 vc-modules/team-grid.php:123
+#: vc-modules/team-slider.php:180 vc-modules/testimonial.php:128
+#: vc-modules/woo-feature-product-isotope.php:124
+#: vc-modules/woo-popular-product-slider.php:115
+#: vc-modules/woo-product-slider.php:118
+msgid "Ascending"
+msgstr ""
+
+#: vc-modules/post.php:245 vc-modules/project-slider.php:269
+#: vc-modules/team-slider.php:307 vc-modules/testimonial.php:263
+#: vc-modules/woo-popular-product-slider.php:252
+#: vc-modules/woo-product-slider.php:255
+msgid "Autoplay"
+msgstr ""
+
+#: vc-modules/post.php:275 vc-modules/project-slider.php:307
+#: vc-modules/team-slider.php:345 vc-modules/testimonial.php:293
+#: vc-modules/woo-popular-product-slider.php:282
+#: vc-modules/woo-product-slider.php:285
+msgid "Autoplay Interval"
+msgstr ""
+
+#: vc-modules/post.php:295 vc-modules/project-slider.php:331
+#: vc-modules/team-slider.php:369 vc-modules/testimonial.php:313
+#: vc-modules/woo-popular-product-slider.php:302
+#: vc-modules/woo-product-slider.php:305
+msgid "Autoplay Slide Speed"
+msgstr ""
+
+#: vc-modules/text-with-button.php:16
+msgid "Award<span> Winning</span> Gardener<span> Landscape</span> Company"
+msgstr ""
+
+#: vc-modules/rt-image.php:24
+msgid "Back Image"
+msgstr ""
+
+#: post-meta.php:156 vc-modules/pricing-box.php:39
+msgid "Background Color"
+msgstr ""
+
+#: post-meta.php:155 vc-modules/info-text.php:219 widgets/cta-widget.php:65
+msgid "Background Image"
+msgstr ""
+
+#: vc-modules/video.php:32
+msgid "Background Type"
+msgstr ""
+
+#: post-meta.php:131
+msgid "Banner"
+msgstr ""
+
+#: post-meta.php:166
+msgid "Banner Background Color"
+msgstr ""
+
+#: post-meta.php:161
+msgid "Banner Background Image"
+msgstr ""
+
+#: post-meta.php:151
+msgid "Banner Background Type"
+msgstr ""
+
+#: vc-modules/progress-bar.php:63
+msgid "Bar Color"
+msgstr ""
+
+#: vc-modules/views/before-after.php:12
+msgid "Before"
+msgstr ""
+
+#: vc-modules/before-after.php:24
+msgid "Before Image"
+msgstr ""
+
+#: post-meta.php:349
+msgid "Benefit Description"
+msgstr ""
+
+#: post-meta.php:344
+msgid "Benefit Title"
+msgstr ""
+
+#: vc-modules/text-with-button.php:92
+msgid "Bold"
+msgstr ""
+
+#: vc-modules/team-grid.php:72 vc-modules/team-slider.php:60
+msgid "Box Background Color"
+msgstr ""
+
+#: vc-modules/team-grid.php:83 vc-modules/team-slider.php:71
+msgid "Box Background Hover Color"
+msgstr ""
+
+#: post-meta.php:141
+msgid "Breadcrumb"
+msgstr ""
+
+#: vc-modules/woo-feature-product-isotope.php:177
+#: vc-modules/woo-popular-product-slider.php:173
+#: vc-modules/woo-product-slider.php:176
+msgid "Button Color"
+msgstr ""
+
+#: vc-modules/post-grid.php:118 vc-modules/project-grid.php:193
+msgid "Button Display"
+msgstr ""
+
+#: vc-modules/info-text.php:399 vc-modules/text-with-button.php:115
+msgid "Button Style"
+msgstr ""
+
+#: vc-modules/about.php:101 vc-modules/cta.php:159 vc-modules/info-text.php:414
+#: vc-modules/post-grid.php:133 vc-modules/pricing-box.php:94
+#: vc-modules/project-grid.php:208 vc-modules/service-grid.php:157
+#: vc-modules/text-with-button.php:129
+#: vc-modules/woo-feature-product-isotope.php:185 widgets/cta-widget.php:73
+#: widgets/download-widget.php:44
+msgid "Button Text"
+msgstr ""
+
+#: vc-modules/about.php:113 vc-modules/cta.php:171 vc-modules/info-text.php:426
+#: vc-modules/post-grid.php:145 vc-modules/pricing-box.php:102
+#: vc-modules/project-grid.php:220 vc-modules/service-grid.php:169
+#: vc-modules/text-with-button.php:137
+#: vc-modules/woo-feature-product-isotope.php:193 widgets/cta-widget.php:77
+msgid "Button URL"
+msgstr ""
+
+#: vc-modules/cta.php:17
+msgid "Buy the Greenova wordpress theme and grow with us"
+msgstr ""
+
+#: vc-modules/views/post-grid-3.php:61
+msgid "by "
+msgstr ""
+
+#: vc-modules/post-grid.php:55 vc-modules/post.php:63
+#: vc-modules/project-grid.php:140 vc-modules/project-slider.php:120
+#: vc-modules/service-grid.php:63 vc-modules/team-grid.php:54
+#: vc-modules/team-slider.php:154 vc-modules/testimonial.php:102
+#: vc-modules/woo-feature-product-isotope.php:103
+#: vc-modules/woo-popular-product-slider.php:57
+#: vc-modules/woo-product-slider.php:60
+msgid "Categories"
+msgstr ""
+
+#: vc-modules/woo-product-slider.php:51
+msgid "Category Wise"
+msgstr ""
+
+#: vc-modules/project-grid.php:100 vc-modules/rt-counter.php:139
+#: vc-modules/text-with-button.php:44 vc-modules/title.php:253
+msgid "Center"
+msgstr ""
+
+#: post-meta.php:189
+msgid "Client"
+msgstr ""
+
+#: vc-modules/title.php:99
+msgid "Color Title"
+msgstr ""
+
+#: vc-modules/views/post-grid-3.php:43
+msgid "Comment"
+msgstr ""
+
+#: vc-modules/views/post-grid-1.php:56 vc-modules/views/post-grid-2.php:56
+#: vc-modules/views/post-grid-3.php:43 vc-modules/views/post-style-1.php:62
+#: vc-modules/views/post-style-8.php:63
+#: vc-modules/views/woo-all-product-slider.php:61
+msgid "Comments"
+msgstr ""
+
+#: vc-modules/text-with-button.php:31
+msgid "Common Layout 1"
+msgstr ""
+
+#: vc-modules/text-with-button.php:32
+msgid "Common Layout 2"
+msgstr ""
+
+#: vc-modules/text-with-button.php:33
+msgid "Common Layout 3"
+msgstr ""
+
+#: vc-modules/pricing-box.php:129
+msgid "Common Price Table"
+msgstr ""
+
+#: vc-modules/cta.php:18 vc-modules/text-with-button.php:17
+msgid "Contact Us"
+msgstr ""
+
+#: vc-modules/about.php:81 vc-modules/award-box.php:106
+#: vc-modules/info-text.php:307 vc-modules/text-with-button.php:99
+#: vc-modules/text-with-video.php:77 vc-modules/video.php:62
+msgid "Content"
+msgstr ""
+
+#: vc-modules/text-with-button.php:107
+msgid "Content color"
+msgstr ""
+
+#: vc-modules/award-box.php:114 vc-modules/info-text.php:336
+msgid "Content Font Size"
+msgstr ""
+
+#: vc-modules/award-box.php:116 vc-modules/info-text.php:338
+msgid ""
+"Content font size in px eg. 15. If not defined, default body font size will "
+"be used"
+msgstr ""
+
+#: vc-modules/testimonial.php:84
+msgid "Content Limit"
+msgstr ""
+
+#: vc-modules/award-box.php:124 vc-modules/info-text.php:350
+msgid ""
+"Content maximum width in px eg 360. Keep this field empty if you want full "
+"width"
+msgstr ""
+
+#: post-meta.php:112
+msgid "Content Padding Bottom"
+msgstr ""
+
+#: post-meta.php:93
+msgid "Content Padding Top"
+msgstr ""
+
+#: vc-modules/award-box.php:122 vc-modules/info-text.php:348
+msgid "Content Width"
+msgstr ""
+
+#: widgets/address-widget.php:60
+msgid "Corporate Office"
+msgstr ""
+
+#: vc-modules/rt-counter.php:88
+msgid "Counter color"
+msgstr ""
+
+#: vc-modules/rt-counter.php:103
+msgid "Counter Font Size"
+msgstr ""
+
+#: vc-modules/rt-counter.php:152
+msgid "Counter Number"
+msgstr ""
+
+#: vc-modules/rt-counter.php:170
+msgid "Counter Speed"
+msgstr ""
+
+#: vc-modules/rt-counter.php:179
+msgid "Counter Steps"
+msgstr ""
+
+#: vc-modules/rt-counter.php:182
+msgid "Counter steps eg. 10"
+msgstr ""
+
+#: vc-modules/rt-counter.php:196
+msgid "Counter Text Size"
+msgstr ""
+
+#: vc-modules/rt-counter.php:198
+msgid "Counter Text size in px eg. 20"
+msgstr ""
+
+#: vc-modules/about.php:123 vc-modules/award-box.php:128
+#: vc-modules/before-after.php:36 vc-modules/contact-box.php:105
+#: vc-modules/contact-info.php:87 vc-modules/cta.php:181
+#: vc-modules/history-box.php:68 vc-modules/info-text.php:447
+#: vc-modules/open-hour.php:62 vc-modules/pricing-box.php:117
+#: vc-modules/progress-bar.php:71 vc-modules/rt-counter.php:203
+#: vc-modules/rt-image.php:36 vc-modules/team-slider.php:402
+#: vc-modules/text-with-button.php:143 vc-modules/text-with-video.php:84
+#: vc-modules/title.php:288 vc-modules/video.php:81
+msgid "Css"
+msgstr ""
+
+#: vc-modules/info-text.php:437
+msgid "Custom Class"
+msgstr ""
+
+#: vc-modules/award-box.php:29 vc-modules/info-text.php:54
+msgid "Custom Image"
+msgstr ""
+
+#: vc-modules/info-text.php:403 vc-modules/title.php:74
+msgid "Dark"
+msgstr ""
+
+#: vc-modules/text-with-button.php:121
+msgid "Dark (Box) Background"
+msgstr ""
+
+#: vc-modules/text-with-button.php:119
+msgid "Dark (Circle) Background"
+msgstr ""
+
+#: vc-modules/video.php:36
+msgid "Dark Background"
+msgstr ""
+
+#: vc-modules/post-grid.php:69 vc-modules/post.php:77
+#: vc-modules/project-grid.php:174 vc-modules/project-slider.php:134
+#: vc-modules/service-grid.php:123 vc-modules/team-grid.php:136
+#: vc-modules/team-slider.php:168 vc-modules/testimonial.php:116
+#: vc-modules/woo-feature-product-isotope.php:137
+#: vc-modules/woo-popular-product-slider.php:103
+#: vc-modules/woo-product-slider.php:106
+msgid "Date"
+msgstr ""
+
+#: post-meta.php:18 post-meta.php:26 post-meta.php:43 post-meta.php:53
+#: post-meta.php:63 post-meta.php:78 post-meta.php:96 post-meta.php:115
+#: post-meta.php:134 post-meta.php:144 post-meta.php:154 post-meta.php:174
+msgid "Default"
+msgstr ""
+
+#: vc-modules/post-grid.php:80 vc-modules/post.php:88
+#: vc-modules/project-grid.php:160 vc-modules/project-slider.php:145
+#: vc-modules/service-grid.php:109 vc-modules/team-grid.php:122
+#: vc-modules/team-slider.php:179 vc-modules/testimonial.php:127
+#: vc-modules/woo-feature-product-isotope.php:123
+#: vc-modules/woo-popular-product-slider.php:114
+#: vc-modules/woo-product-slider.php:117
+msgid "Descending"
+msgstr ""
+
+#: vc-modules/contact-info.php:35 widgets/social-widget.php:95
+msgid "Description"
+msgstr ""
+
+#: vc-modules/contact-info.php:49
+msgid "Description color"
+msgstr ""
+
+#: vc-modules/about.php:125 vc-modules/award-box.php:130
+#: vc-modules/before-after.php:38 vc-modules/contact-box.php:107
+#: vc-modules/contact-info.php:89 vc-modules/cta.php:183
+#: vc-modules/history-box.php:70 vc-modules/info-text.php:449
+#: vc-modules/open-hour.php:64 vc-modules/pricing-box.php:119
+#: vc-modules/progress-bar.php:73 vc-modules/rt-counter.php:205
+#: vc-modules/rt-image.php:38 vc-modules/team-slider.php:404
+#: vc-modules/text-with-button.php:145 vc-modules/text-with-video.php:86
+#: vc-modules/title.php:290 vc-modules/video.php:83
+msgid "Design options"
+msgstr ""
+
+#: post-meta.php:272 post-meta.php:364
+msgid "Designation"
+msgstr ""
+
+#: vc-modules/testimonial.php:69
+msgid "Designation color"
+msgstr ""
+
+#: vc-modules/team-grid.php:62
+msgid "Designation Display"
+msgstr ""
+
+#: vc-modules/team-slider.php:143
+msgid "Designation display"
+msgstr ""
+
+#: vc-modules/views/team-11.php:56 vc-modules/views/team-grid4.php:71
+msgid "Detail"
+msgstr ""
+
+#: vc-modules/pricing-box.php:17 vc-modules/views/service-grid-4.php:74
+msgid "Details"
+msgstr ""
+
+#: vc-modules/post.php:249 vc-modules/post.php:262 vc-modules/post.php:313
+#: vc-modules/team-slider.php:279 vc-modules/testimonial.php:243
+#: vc-modules/woo-popular-product-slider.php:256
+#: vc-modules/woo-popular-product-slider.php:269
+#: vc-modules/woo-popular-product-slider.php:320
+#: vc-modules/woo-product-slider.php:259 vc-modules/woo-product-slider.php:272
+#: vc-modules/woo-product-slider.php:323
+msgid "Disable"
+msgstr ""
+
+#: post-meta.php:45 post-meta.php:55 post-meta.php:136 post-meta.php:146
+#: post-meta.php:176 vc-modules/contact-box.php:100
+#: vc-modules/info-text.php:388 vc-modules/post-grid.php:91
+#: vc-modules/post-grid.php:121 vc-modules/post.php:100 vc-modules/post.php:139
+#: vc-modules/post.php:231 vc-modules/project-grid.php:70
+#: vc-modules/project-grid.php:124 vc-modules/project-grid.php:186
+#: vc-modules/project-grid.php:196 vc-modules/project-slider.php:63
+#: vc-modules/project-slider.php:113 vc-modules/project-slider.php:257
+#: vc-modules/project-slider.php:273 vc-modules/project-slider.php:290
+#: vc-modules/project-slider.php:353 vc-modules/service-grid.php:84
+#: vc-modules/service-grid.php:99 vc-modules/team-grid.php:66
+#: vc-modules/team-grid.php:157 vc-modules/team-grid.php:171
+#: vc-modules/team-slider.php:98 vc-modules/team-slider.php:108
+#: vc-modules/team-slider.php:295 vc-modules/team-slider.php:311
+#: vc-modules/team-slider.php:328 vc-modules/team-slider.php:391
+#: vc-modules/testimonial.php:139 vc-modules/testimonial.php:255
+#: vc-modules/testimonial.php:267 vc-modules/testimonial.php:280
+#: vc-modules/testimonial.php:331 vc-modules/woo-feature-product-isotope.php:60
+#: vc-modules/woo-feature-product-isotope.php:87
+#: vc-modules/woo-feature-product-isotope.php:149
+#: vc-modules/woo-feature-product-isotope.php:160
+#: vc-modules/woo-feature-product-isotope.php:171
+#: vc-modules/woo-popular-product-slider.php:126
+#: vc-modules/woo-popular-product-slider.php:156
+#: vc-modules/woo-popular-product-slider.php:167
+#: vc-modules/woo-popular-product-slider.php:238
+#: vc-modules/woo-product-slider.php:129 vc-modules/woo-product-slider.php:159
+#: vc-modules/woo-product-slider.php:170 vc-modules/woo-product-slider.php:241
+msgid "Disabled"
+msgstr ""
+
+#: vc-modules/woo-popular-product-slider.php:85
+#: vc-modules/woo-product-slider.php:88
+msgid "Display"
+msgstr ""
+
+#: vc-modules/pricing-box.php:126
+msgid "Display Active"
+msgstr ""
+
+#: vc-modules/title.php:71
+msgid "Display Bar Color"
+msgstr ""
+
+#: vc-modules/title.php:56
+msgid "Display Bar Under Title"
+msgstr ""
+
+#: vc-modules/about.php:90 vc-modules/info-text.php:384
+#: vc-modules/service-grid.php:142
+msgid "Display Button"
+msgstr ""
+
+#: vc-modules/service-grid.php:131
+msgid "Display Pagination"
+msgstr ""
+
+#: widgets/rt-recent-post-widget.php:95
+msgid "Display post date?"
+msgstr ""
+
+#: vc-modules/woo-popular-product-slider.php:46
+#: vc-modules/woo-product-slider.php:46
+msgid "Display Product Based on"
+msgstr ""
+
+#: vc-modules/woo-popular-product-slider.php:82
+#: vc-modules/woo-product-slider.php:85
+msgid "Display Sales Timer"
+msgstr ""
+
+#: widgets/cta-widget.php:13 widgets/download-widget.php:13
+msgid "Display Text With button"
+msgstr ""
+
+#: widgets/download-widget.php:48
+msgid "Download URL"
+msgstr ""
+
+#: vc-modules/views/contact-1.php:23
+msgid "E-mail"
+msgstr ""
+
+#: post-meta.php:318
+msgid "eg. 75"
+msgstr ""
+
+#: post-meta.php:346
+msgid "eg. Impact the environment"
+msgstr ""
+
+#: post-meta.php:313
+msgid "eg. Investment"
+msgstr ""
+
+#: vc-modules/pricing-box.php:79
+msgid "eg. month or year. Keep empty if you don't want to show unit"
+msgstr ""
+
+#: post-meta.php:288 vc-modules/contact-box.php:67
+#: vc-modules/contact-info.php:73 widgets/address-widget.php:87
+msgid "Email"
+msgstr ""
+
+#: vc-modules/post.php:248 vc-modules/post.php:261 vc-modules/post.php:312
+#: vc-modules/team-slider.php:278 vc-modules/testimonial.php:242
+#: vc-modules/woo-popular-product-slider.php:255
+#: vc-modules/woo-popular-product-slider.php:268
+#: vc-modules/woo-popular-product-slider.php:319
+#: vc-modules/woo-product-slider.php:258 vc-modules/woo-product-slider.php:271
+#: vc-modules/woo-product-slider.php:322
+msgid "Enable"
+msgstr ""
+
+#: vc-modules/post.php:251 vc-modules/project-slider.php:275
+#: vc-modules/team-slider.php:313 vc-modules/woo-popular-product-slider.php:258
+#: vc-modules/woo-product-slider.php:261
+msgid "Enable or disable autoplay. Default: Enable"
+msgstr ""
+
+#: vc-modules/post.php:234 vc-modules/woo-popular-product-slider.php:241
+#: vc-modules/woo-product-slider.php:244
+msgid "Enable or disable navigation dots. Default: Disable"
+msgstr ""
+
+#: post-meta.php:44 post-meta.php:54 post-meta.php:135 post-meta.php:145
+#: post-meta.php:175 vc-modules/contact-box.php:99 vc-modules/info-text.php:387
+#: vc-modules/post-grid.php:92 vc-modules/post-grid.php:122
+#: vc-modules/post.php:99 vc-modules/post.php:138 vc-modules/post.php:232
+#: vc-modules/project-grid.php:69 vc-modules/project-grid.php:123
+#: vc-modules/project-grid.php:185 vc-modules/project-grid.php:197
+#: vc-modules/project-slider.php:62 vc-modules/project-slider.php:112
+#: vc-modules/project-slider.php:256 vc-modules/project-slider.php:272
+#: vc-modules/project-slider.php:289 vc-modules/project-slider.php:352
+#: vc-modules/service-grid.php:83 vc-modules/service-grid.php:98
+#: vc-modules/team-grid.php:65 vc-modules/team-grid.php:156
+#: vc-modules/team-grid.php:172 vc-modules/team-slider.php:97
+#: vc-modules/team-slider.php:109 vc-modules/team-slider.php:294
+#: vc-modules/team-slider.php:310 vc-modules/team-slider.php:327
+#: vc-modules/team-slider.php:390 vc-modules/testimonial.php:138
+#: vc-modules/testimonial.php:254 vc-modules/testimonial.php:266
+#: vc-modules/testimonial.php:279 vc-modules/testimonial.php:330
+#: vc-modules/woo-feature-product-isotope.php:59
+#: vc-modules/woo-feature-product-isotope.php:86
+#: vc-modules/woo-feature-product-isotope.php:148
+#: vc-modules/woo-feature-product-isotope.php:159
+#: vc-modules/woo-feature-product-isotope.php:170
+#: vc-modules/woo-popular-product-slider.php:125
+#: vc-modules/woo-popular-product-slider.php:155
+#: vc-modules/woo-popular-product-slider.php:166
+#: vc-modules/woo-popular-product-slider.php:239
+#: vc-modules/woo-product-slider.php:128 vc-modules/woo-product-slider.php:158
+#: vc-modules/woo-product-slider.php:169 vc-modules/woo-product-slider.php:242
+msgid "Enabled"
+msgstr ""
+
+#: vc-modules/testimonial.php:269
+msgid "Enabled or disabled autoplay. Default: Enabled"
+msgstr ""
+
+#: vc-modules/video.php:77
+msgid ""
+"Enter any video link from external sources eg. http://www.youtube.com/watch?"
+"v=1iIZeIy7TqM"
+msgstr ""
+
+#: vc-modules/info-text.php:439
+msgid "Enter Class Name eg. column321"
+msgstr ""
+
+#: vc-modules/text-with-video.php:71
+#, php-format
+msgid ""
+"Enter link to video (Note: read more about available formats at WordPress <a "
+"href=\"%s\" target=\"_blank\">codex page</a>)."
+msgstr ""
+
+#: vc-modules/post-grid.php:17 vc-modules/post.php:17
+msgid "Expert Tips & Tricks"
+msgstr ""
+
+#: post-meta.php:204
+msgid "Facebook"
+msgstr ""
+
+#: widgets/social-widget.php:99
+msgid "Facebook URL"
+msgstr ""
+
+#: post-meta.php:280 vc-modules/contact-box.php:83
+#: vc-modules/contact-info.php:81 widgets/address-widget.php:91
+msgid "Fax"
+msgstr ""
+
+#: vc-modules/woo-product-slider.php:50
+msgid "Feature Product"
+msgstr ""
+
+#: vc-modules/pricing-box.php:85
+msgid "Features"
+msgstr ""
+
+#: vc-flaticon/vc-flaticon.php:68
+msgid "Finance"
+msgstr ""
+
+#: vc-modules/views/contact-1.php:36 vc-modules/views/contact-2.php:35
+msgid "Find Us On"
+msgstr ""
+
+#: vc-modules/award-box.php:27 vc-modules/info-text.php:53
+#: vc-modules/rt-counter.php:49
+msgid "FlatIcon"
+msgstr ""
+
+#: vc-modules/award-box.php:34 vc-modules/info-text.php:77
+#: vc-modules/rt-counter.php:72
+msgid "Flaticon"
+msgstr ""
+
+#: vc-modules/history-box.php:19
+msgid ""
+"Fmply dummy text of the printing and typesetting industry. Lorem Ipsum has "
+"been the industry's stand when an unknown printer took a galley of type and "
+"scrambled it to make a type specimen book. It has survived not only five."
+"stand when an unknown printer took a galley."
+msgstr ""
+
+#: vc-modules/title.php:159 vc-modules/title.php:180
+msgid "Font Size 14"
+msgstr ""
+
+#: vc-modules/title.php:158 vc-modules/title.php:179
+msgid "Font Size 16"
+msgstr ""
+
+#: vc-modules/title.php:157 vc-modules/title.php:178
+msgid "Font Size 18"
+msgstr ""
+
+#: vc-modules/title.php:156 vc-modules/title.php:177
+msgid "Font Size 20"
+msgstr ""
+
+#: vc-modules/title.php:155 vc-modules/title.php:176
+msgid "Font Size 24"
+msgstr ""
+
+#: vc-modules/title.php:154 vc-modules/title.php:173
+msgid "Font Size 28"
+msgstr ""
+
+#: vc-modules/title.php:153 vc-modules/title.php:175
+msgid "Font Size 30"
+msgstr ""
+
+#: vc-modules/title.php:152 vc-modules/title.php:174
+msgid "Font Size 32"
+msgstr ""
+
+#: vc-modules/award-box.php:28 vc-modules/info-text.php:52
+#: vc-modules/rt-counter.php:48
+msgid "FontAwesome"
+msgstr ""
+
+#: vc-modules/award-box.php:49 vc-modules/info-text.php:63
+#: vc-modules/rt-counter.php:58 vc-modules/title.php:121
+msgid "FontAwesome Icon"
+msgstr ""
+
+#: post-meta.php:171
+msgid "Footer Top Bar"
+msgstr ""
+
+#: post-meta.php:27
+msgid "Full Width"
+msgstr ""
+
+#: vc-modules/video.php:46
+msgid "Full-Screen"
+msgstr ""
+
+#: vc-modules/history-box.php:17
+msgid ""
+"Gimply dummy text of the printing and typesetting industry. Lorem Ipsum has "
+"been the industry's standard dummy text ever since the 1500s, when an "
+"unknown printer took a galley of type and scrambled it to make a type "
+"specimen book.simply dummy text of the printing and typesetting industry. "
+"Lorem Ipsum has been the industry's type and scrambled it to make."
+msgstr ""
+
+#: post-meta.php:252
+msgid "Github"
+msgstr ""
+
+#: post-meta.php:222
+msgid "Google Plus"
+msgstr ""
+
+#: widgets/social-widget.php:107
+msgid "Google Plus URL"
+msgstr ""
+
+#: vc-flaticon/vc-flaticon.php:66 vc-modules/inc/abstruct.php:54
+msgid "Greenova"
+msgstr ""
+
+#: widgets/social-widget.php:16
+msgid "Greenova : (For Footer) Social Link widget with Description"
+msgstr ""
+
+#. Base ID
+#: widgets/address-widget.php:12
+msgid "Greenova : Address (for footer)"
+msgstr ""
+
+#: widgets/rt-recent-post-widget.php:13
+msgid "Greenova : Recent Posts"
+msgstr ""
+
+#: widgets/social-widget.php:19
+msgid "Greenova : Social Widget"
+msgstr ""
+
+#. Name of the plugin
+msgid "Greenova Core"
+msgstr ""
+
+#. Description of the plugin
+msgid "Greenova Core Plugin for Greenova Theme"
+msgstr ""
+
+#: vc-flaticon/vc-flaticon.php:67
+msgid "Greenova-2"
+msgstr ""
+
+#: vc-modules/about.php:13
+msgid "greenova: About"
+msgstr ""
+
+#: vc-modules/award-box.php:13
+msgid "greenova: Award Box"
+msgstr ""
+
+#: vc-modules/before-after.php:13
+msgid "GREENOVA: Before After"
+msgstr ""
+
+#: vc-modules/cta.php:13
+msgid "GREENOVA: Call to Action"
+msgstr ""
+
+#: widgets/cta-widget.php:16
+msgid "Greenova: Call To Action"
+msgstr ""
+
+#: vc-modules/contact-box.php:13
+msgid "Greenova: Contact"
+msgstr ""
+
+#: vc-modules/rt-counter.php:13
+msgid "Greenova: Counter"
+msgstr ""
+
+#: widgets/download-widget.php:16
+msgid "Greenova: Download Link"
+msgstr ""
+
+#: vc-modules/woo-feature-product-isotope.php:13
+msgid "Greenova: Feature Product Isotope"
+msgstr ""
+
+#: vc-modules/history-box.php:13
+msgid "Greenova: History Box"
+msgstr ""
+
+#: vc-modules/info-text.php:13
+msgid "greenova: Info Text"
+msgstr ""
+
+#: vc-modules/open-hour.php:13
+msgid "greenova: Opening Hour"
+msgstr ""
+
+#: vc-modules/woo-popular-product-slider.php:13
+msgid "Greenova: Popula Product Slider"
+msgstr ""
+
+#: vc-modules/post-grid.php:13
+msgid "greenova: Post Grid"
+msgstr ""
+
+#: vc-modules/post.php:13
+msgid "greenova: Post Slider"
+msgstr ""
+
+#: vc-modules/pricing-box.php:13
+msgid "Greenova: Pricing Box"
+msgstr ""
+
+#: vc-modules/woo-product-slider.php:13
+msgid "Greenova: Product Slider"
+msgstr ""
+
+#: vc-modules/progress-bar.php:13
+msgid "Greenova: Progress Bar"
+msgstr ""
+
+#: vc-modules/project-grid.php:13
+msgid "Greenova: Project Grid"
+msgstr ""
+
+#: vc-modules/project-slider.php:13
+msgid "Greenova: Project Slider"
+msgstr ""
+
+#: vc-modules/contact-info.php:13
+msgid "Greenova: Quick Contact"
+msgstr ""
+
+#: vc-modules/rt-image.php:13
+msgid "GREENOVA: RT Dual Image"
+msgstr ""
+
+#: vc-modules/title.php:13
+msgid "GREENOVA: Section Title"
+msgstr ""
+
+#: vc-modules/service-grid.php:13
+msgid "Greenova: Service Grid"
+msgstr ""
+
+#: vc-modules/team-grid.php:13
+msgid "greenova: Team Grid"
+msgstr ""
+
+#: vc-modules/team-slider.php:13
+msgid "greenova: Team Slider"
+msgstr ""
+
+#: vc-modules/testimonial.php:13
+msgid "Greenova: Testimonial"
+msgstr ""
+
+#: vc-modules/text-with-button.php:13
+msgid "Greenova: Text with Button"
+msgstr ""
+
+#: vc-modules/text-with-video.php:13
+msgid "greenova: Text with Video"
+msgstr ""
+
+#: vc-modules/video.php:13
+msgid "Greenova: Video"
+msgstr ""
+
+#: vc-modules/cta.php:55
+msgid "H1"
+msgstr ""
+
+#: vc-modules/cta.php:54 vc-modules/text-with-button.php:66
+msgid "H2"
+msgstr ""
+
+#: vc-modules/cta.php:56 vc-modules/text-with-button.php:65
+msgid "H3"
+msgstr ""
+
+#: vc-modules/cta.php:57
+msgid "H4"
+msgstr ""
+
+#: vc-modules/video.php:47
+msgid "Half-Screen"
+msgstr ""
+
+#: vc-modules/rt-counter.php:16
+msgid "Happy Client"
+msgstr ""
+
+#: post-meta.php:75
+msgid "Header Layout"
+msgstr ""
+
+#: vc-modules/info-text.php:160 vc-modules/title.php:60
+#: vc-modules/woo-popular-product-slider.php:86
+#: vc-modules/woo-product-slider.php:89
+msgid "Hide"
+msgstr ""
+
+#: vc-modules/history-box.php:39
+msgid "History Text"
+msgstr ""
+
+#: demo-importer.php:19
+msgid "Home 1"
+msgstr ""
+
+#: demo-importer.php:54
+msgid "Home 1 Onepage"
+msgstr ""
+
+#: demo-importer.php:24
+msgid "Home 2"
+msgstr ""
+
+#: demo-importer.php:59
+msgid "Home 2 Onepage"
+msgstr ""
+
+#: demo-importer.php:29
+msgid "Home 3"
+msgstr ""
+
+#: demo-importer.php:64
+msgid "Home 3 Onepage"
+msgstr ""
+
+#: demo-importer.php:34
+msgid "Home 4"
+msgstr ""
+
+#: demo-importer.php:69
+msgid "Home 4 Onepage"
+msgstr ""
+
+#: demo-importer.php:39
+msgid "Home 5"
+msgstr ""
+
+#: demo-importer.php:74
+msgid "Home 5 Onepage"
+msgstr ""
+
+#: demo-importer.php:44
+msgid "Home 6"
+msgstr ""
+
+#: demo-importer.php:79
+msgid "Home 6 Onepage"
+msgstr ""
+
+#: demo-importer.php:49
+msgid "Home 7"
+msgstr ""
+
+#: demo-importer.php:84
+msgid "Home 7 Onepage"
+msgstr ""
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "http://radiustheme.com"
+msgstr ""
+
+#: vc-modules/info-text.php:17
+msgid "I am sub title"
+msgstr ""
+
+#: vc-modules/info-text.php:16
+msgid "I am title"
+msgstr ""
+
+#: vc-modules/info-text.php:141
+msgid "Icon Alignment"
+msgstr ""
+
+#: vc-modules/info-text.php:171
+msgid "Icon Background color"
+msgstr ""
+
+#: vc-modules/info-text.php:183
+msgid "Icon Border color"
+msgstr ""
+
+#: vc-modules/rt-counter.php:111
+msgid "Icon Color"
+msgstr ""
+
+#: vc-modules/award-box.php:76 vc-modules/info-text.php:105
+msgid "Icon color"
+msgstr ""
+
+#: vc-modules/rt-counter.php:123
+msgid "Icon Font Size"
+msgstr ""
+
+#: vc-modules/info-text.php:117
+msgid "Icon hover color"
+msgstr ""
+
+#: vc-modules/award-box.php:97
+msgid "Icon padding"
+msgstr ""
+
+#: vc-modules/award-box.php:99
+msgid "Icon padding in px eg. 15. Doesn't work on custom image"
+msgstr ""
+
+#: vc-modules/award-box.php:88 vc-modules/info-text.php:207
+msgid "Icon size"
+msgstr ""
+
+#: vc-modules/rt-counter.php:105 vc-modules/rt-counter.php:125
+msgid "Icon size in px eg. 20"
+msgstr ""
+
+#: vc-modules/award-box.php:90 vc-modules/info-text.php:209
+msgid "Icon size in px eg. 30"
+msgstr ""
+
+#: vc-modules/award-box.php:24 vc-modules/info-text.php:49
+#: vc-modules/rt-counter.php:45
+msgid "Icon Type"
+msgstr ""
+
+#: vc-modules/post-grid.php:68 vc-modules/post.php:76
+#: vc-modules/project-grid.php:173 vc-modules/project-slider.php:133
+#: vc-modules/service-grid.php:122 vc-modules/team-grid.php:135
+#: vc-modules/team-slider.php:167 vc-modules/testimonial.php:115
+#: vc-modules/woo-feature-product-isotope.php:136
+#: vc-modules/woo-popular-product-slider.php:102
+#: vc-modules/woo-product-slider.php:105
+msgid "ID"
+msgstr ""
+
+#: post-meta.php:163 post-meta.php:168
+msgid "If not selected, default will be used"
+msgstr ""
+
+#: vc-modules/rt-counter.php:164
+msgid "If you want to set a maximum number. eg. 5780"
+msgstr ""
+
+#: vc-modules/about.php:50 vc-modules/cta.php:88
+msgid "Image"
+msgstr ""
+
+#: vc-modules/about.php:39
+msgid "Image Alignment"
+msgstr ""
+
+#: vc-modules/pricing-box.php:70
+msgid "Including currency sign eg. $59"
+msgstr ""
+
+#: vc-modules/info-text.php:195
+msgid "Info Box Background color"
+msgstr ""
+
+#: post-meta.php:246
+msgid "Instagram"
+msgstr ""
+
+#: widgets/social-widget.php:119
+msgid "Instagram URL"
+msgstr ""
+
+#: demo-importer.php:11
+msgid "Install Demo Contents"
+msgstr ""
+
+#: vc-modules/project-grid.php:131 vc-modules/service-grid.php:54
+#: vc-modules/team-grid.php:144 vc-modules/woo-feature-product-isotope.php:94
+msgid "Items Per Page"
+msgstr ""
+
+#: vc-modules/info-text.php:288
+msgid "keep this field empty if you don't want the title linkable"
+msgstr ""
+
+#: vc-modules/title.php:19
+msgid "Landscaping Company"
+msgstr ""
+
+#: widgets/rt-recent-post-widget.php:79
+msgid "Latest Post"
+msgstr ""
+
+#: post-meta.php:23 vc-modules/about.php:28 vc-modules/info-text.php:29
+#: vc-modules/pricing-box.php:28 vc-modules/project-grid.php:46
+#: vc-modules/project-slider.php:47 vc-modules/service-grid.php:40
+#: vc-modules/team-grid.php:40 vc-modules/team-slider.php:47
+#: vc-modules/testimonial.php:47 vc-modules/text-with-button.php:28
+#: vc-modules/text-with-video.php:28 vc-modules/video.php:43
+#: vc-modules/woo-feature-product-isotope.php:45
+msgid "Layout"
+msgstr ""
+
+#: post-meta.php:64 post-meta.php:79 vc-modules/info-text.php:32
+#: vc-modules/project-slider.php:50 vc-modules/team-slider.php:50
+#: vc-modules/testimonial.php:50
+msgid "Layout 1"
+msgstr ""
+
+#: post-meta.php:88 vc-modules/info-text.php:41
+msgid "Layout 10"
+msgstr ""
+
+#: vc-modules/info-text.php:42
+msgid "Layout 11"
+msgstr ""
+
+#: post-meta.php:65 post-meta.php:80 vc-modules/info-text.php:33
+#: vc-modules/project-slider.php:51 vc-modules/team-slider.php:51
+#: vc-modules/testimonial.php:51
+msgid "Layout 2"
+msgstr ""
+
+#: post-meta.php:66 post-meta.php:81 vc-modules/info-text.php:34
+#: vc-modules/project-slider.php:52 vc-modules/team-slider.php:52
+#: vc-modules/testimonial.php:52
+msgid "Layout 3"
+msgstr ""
+
+#: post-meta.php:67 post-meta.php:82 vc-modules/info-text.php:35
+#: vc-modules/team-slider.php:53 vc-modules/testimonial.php:53
+msgid "Layout 4"
+msgstr ""
+
+#: post-meta.php:68 post-meta.php:83 vc-modules/info-text.php:36
+#: vc-modules/team-slider.php:54 vc-modules/testimonial.php:54
+msgid "Layout 5"
+msgstr ""
+
+#: post-meta.php:69 post-meta.php:84 vc-modules/info-text.php:37
+#: vc-modules/testimonial.php:55
+msgid "Layout 6"
+msgstr ""
+
+#: post-meta.php:70 post-meta.php:85 vc-modules/info-text.php:38
+#: vc-modules/testimonial.php:56
+msgid "Layout 7"
+msgstr ""
+
+#: post-meta.php:86 vc-modules/info-text.php:39
+msgid "Layout 8"
+msgstr ""
+
+#: post-meta.php:87 vc-modules/info-text.php:40
+msgid "Layout 9"
+msgstr ""
+
+#: post-meta.php:20
+msgid "Layout Settings"
+msgstr ""
+
+#: vc-modules/info-text.php:144 vc-modules/project-grid.php:99
+#: vc-modules/rt-counter.php:140 vc-modules/text-with-button.php:45
+#: vc-modules/title.php:254
+msgid "Left"
+msgstr ""
+
+#: post-meta.php:28
+msgid "Left Sidebar"
+msgstr ""
+
+#: vc-modules/info-text.php:402 vc-modules/text-with-button.php:91
+#: vc-modules/title.php:75
+msgid "Light"
+msgstr ""
+
+#: vc-modules/text-with-button.php:120
+msgid "Light (Box) Background"
+msgstr ""
+
+#: vc-modules/text-with-button.php:118
+msgid "Light (Circle) Background"
+msgstr ""
+
+#: vc-modules/video.php:35
+msgid "Light Background"
+msgstr ""
+
+#: post-meta.php:216
+msgid "Linkedin"
+msgstr ""
+
+#: widgets/social-widget.php:111
+msgid "LinkedIn URL"
+msgstr ""
+
+#: post-meta.php:193
+msgid "Live Demo"
+msgstr ""
+
+#: vc-modules/post.php:309 vc-modules/project-slider.php:349
+#: vc-modules/team-slider.php:387 vc-modules/testimonial.php:327
+#: vc-modules/woo-popular-product-slider.php:316
+#: vc-modules/woo-product-slider.php:319
+msgid "Loop"
+msgstr ""
+
+#: vc-modules/post.php:315 vc-modules/project-slider.php:355
+#: vc-modules/team-slider.php:393 vc-modules/woo-popular-product-slider.php:322
+#: vc-modules/woo-product-slider.php:325
+msgid "Loop to first item. Default: Enable"
+msgstr ""
+
+#: vc-modules/testimonial.php:333
+msgid "Loop to first item. Default: Enabled"
+msgstr ""
+
+#: post-meta.php:34
+msgid "Main Menu"
+msgstr ""
+
+#: vc-modules/text-with-video.php:54
+msgid "Main Title"
+msgstr ""
+
+#: vc-modules/text-with-video.php:61
+msgid "Main Title Color"
+msgstr ""
+
+#: vc-flaticon/vc-flaticon.php:69
+msgid "Marketing"
+msgstr ""
+
+#: vc-modules/post-grid.php:102 vc-modules/post.php:168
+#: vc-modules/project-grid.php:151 vc-modules/project-slider.php:160
+#: vc-modules/service-grid.php:74 vc-modules/team-grid.php:102
+#: vc-modules/team-slider.php:194
+#: vc-modules/woo-feature-product-isotope.php:114
+msgid "Maximum number of words"
+msgstr ""
+
+#: vc-modules/pricing-box.php:110
+msgid "Maximum width"
+msgstr ""
+
+#: vc-modules/pricing-box.php:113
+msgid "Maximum width in px. Keep empty if you want full width. eg. 300"
+msgstr ""
+
+#: vc-modules/rt-counter.php:161
+msgid "Maximun Width"
+msgstr ""
+
+#: vc-modules/post-grid.php:70 vc-modules/post.php:78
+#: vc-modules/project-grid.php:175 vc-modules/project-slider.php:135
+#: vc-modules/service-grid.php:124 vc-modules/team-grid.php:137
+#: vc-modules/team-slider.php:169 vc-modules/testimonial.php:117
+#: vc-modules/woo-feature-product-isotope.php:138
+#: vc-modules/woo-popular-product-slider.php:104
+#: vc-modules/woo-product-slider.php:107
+msgid "Menu Order"
+msgstr ""
+
+#: vc-modules/text-with-button.php:101
+msgid ""
+"Mimply dummy text of the printing and typesetting industry. Lorem Ipsum has "
+"been the industry's standard dummy text ever since the 1500s, when an "
+"unknown printer took a galley of type and scrambled it to make a type "
+"specimen book. It has survived not only five cent into electronining "
+"essentially unchanged."
+msgstr ""
+
+#: vc-flaticon/vc-flaticon.php:70
+msgid "Miscellaneous"
+msgstr ""
+
+#: vc-modules/info-text.php:129
+msgid "Mouseover color"
+msgstr ""
+
+#: vc-modules/post-grid.php:67 vc-modules/post.php:75
+#: vc-modules/project-grid.php:172 vc-modules/project-slider.php:132
+#: vc-modules/service-grid.php:121 vc-modules/team-grid.php:134
+#: vc-modules/team-slider.php:166 vc-modules/testimonial.php:114
+#: vc-modules/woo-feature-product-isotope.php:135
+#: vc-modules/woo-popular-product-slider.php:101
+#: vc-modules/woo-product-slider.php:104
+msgid "Name"
+msgstr ""
+
+#: vc-modules/project-slider.php:237 vc-modules/team-slider.php:275
+#: vc-modules/testimonial.php:239
+msgid "Navigation Arrow"
+msgstr ""
+
+#: vc-modules/post.php:228 vc-modules/project-slider.php:253
+#: vc-modules/team-slider.php:291 vc-modules/testimonial.php:251
+#: vc-modules/woo-popular-product-slider.php:235
+#: vc-modules/woo-product-slider.php:238
+msgid "Navigation Dots"
+msgstr ""
+
+#: vc-modules/cta.php:16
+msgid "Need Help For Gardening? Please Contact Us"
+msgstr ""
+
+#: vc-modules/views/post-grid-1.php:65 vc-modules/views/post-grid-2.php:70
+#: vc-modules/views/post-grid-3.php:80 vc-modules/views/post-style-1.php:70
+#: vc-modules/views/post-style-2.php:65 vc-modules/views/post-style-7.php:70
+#: vc-modules/views/post-style-8.php:73 vc-modules/views/service-grid-4.php:94
+#: vc-modules/views/service-grid3.php:97
+#: vc-modules/views/woo-all-product-slider.php:68
+msgid "No Post Found"
+msgstr ""
+
+#: vc-modules/views/featured-product1.php:191
+#: vc-modules/views/woo-category-product-slider.php:123
+#: vc-modules/views/woo-feature-product-slider.php:121
+#: vc-modules/views/woo-popular-product-slider-1.php:120
+#: vc-modules/views/woo-popular-product-slider-2.php:126
+#: vc-modules/views/woo-product-wise-slider.php:115
+#: vc-modules/views/woo-sale-product-slider.php:130
+msgid "No Product Found"
+msgstr ""
+
+#: vc-modules/views/post-style-5.php:102 vc-modules/views/project-grid1.php:141
+#: vc-modules/views/project-grid10.php:140
+#: vc-modules/views/project-grid11.php:148
+#: vc-modules/views/project-grid2.php:131
+#: vc-modules/views/project-grid3.php:132
+#: vc-modules/views/project-grid4.php:127
+#: vc-modules/views/project-grid5.php:133
+#: vc-modules/views/project-grid6.php:141
+#: vc-modules/views/project-grid7.php:134
+#: vc-modules/views/project-grid8.php:133
+#: vc-modules/views/project-grid9.php:126
+#: vc-modules/views/project-slider-1.php:92
+#: vc-modules/views/project-slider-2.php:79
+#: vc-modules/views/project-slider-3.php:71
+msgid "No Project Found"
+msgstr ""
+
+#: vc-modules/views/service-grid1.php:101 vc-modules/views/service-grid2.php:98
+#: vc-modules/views/service-grid5.php:95
+msgid "No Service Found"
+msgstr ""
+
+#: vc-modules/views/team-1.php:82 vc-modules/views/team-10.php:80
+#: vc-modules/views/team-11.php:82 vc-modules/views/team-12.php:79
+#: vc-modules/views/team-13.php:76 vc-modules/views/team-2.php:74
+#: vc-modules/views/team-3.php:66 vc-modules/views/team-4.php:60
+#: vc-modules/views/team-5.php:72 vc-modules/views/team-grid1.php:87
+#: vc-modules/views/team-grid2.php:99 vc-modules/views/team-grid3.php:100
+#: vc-modules/views/team-grid4.php:98 vc-modules/views/team-grid5.php:97
+msgid "No Team Found"
+msgstr ""
+
+#: vc-modules/views/team-9.php:83
+msgid "No Team Member Found"
+msgstr ""
+
+#: vc-modules/views/testimonial-slider-1.php:62
+#: vc-modules/views/testimonial-slider-10.php:58
+#: vc-modules/views/testimonial-slider-2.php:58
+#: vc-modules/views/testimonial-slider-3.php:58
+#: vc-modules/views/testimonial-slider-6.php:82
+#: vc-modules/views/testimonial-slider-7.php:72
+#: vc-modules/views/testimonial-slider-8.php:55
+#: vc-modules/views/testimonial-slider-9.php:75
+msgid "No Testimonial Found"
+msgstr ""
+
+#: vc-modules/post-grid.php:66 vc-modules/post.php:74
+#: vc-modules/project-grid.php:171 vc-modules/project-slider.php:131
+#: vc-modules/service-grid.php:120 vc-modules/team-grid.php:133
+#: vc-modules/team-slider.php:165 vc-modules/testimonial.php:113
+#: vc-modules/woo-feature-product-isotope.php:134
+#: vc-modules/woo-popular-product-slider.php:100
+#: vc-modules/woo-product-slider.php:103
+msgid "None"
+msgstr ""
+
+#: vc-modules/post-grid.php:160 vc-modules/post.php:183
+#: vc-modules/project-grid.php:232 vc-modules/project-slider.php:175
+#: vc-modules/service-grid.php:181 vc-modules/team-grid.php:183
+#: vc-modules/team-slider.php:209 vc-modules/testimonial.php:173
+#: vc-modules/woo-feature-product-isotope.php:201
+#: vc-modules/woo-popular-product-slider.php:190
+#: vc-modules/woo-product-slider.php:193
+msgid "Number of columns ( Desktops > 1199px )"
+msgstr ""
+
+#: vc-modules/post-grid.php:169 vc-modules/post.php:192
+#: vc-modules/project-grid.php:241 vc-modules/project-slider.php:188
+#: vc-modules/service-grid.php:190 vc-modules/team-grid.php:192
+#: vc-modules/team-slider.php:222 vc-modules/testimonial.php:186
+#: vc-modules/woo-feature-product-isotope.php:210
+#: vc-modules/woo-popular-product-slider.php:199
+#: vc-modules/woo-product-slider.php:202
+msgid "Number of columns ( Desktops > 991px )"
+msgstr ""
+
+#: vc-modules/post-grid.php:187 vc-modules/post.php:210
+#: vc-modules/project-grid.php:259 vc-modules/project-slider.php:210
+#: vc-modules/service-grid.php:208 vc-modules/team-grid.php:210
+#: vc-modules/team-slider.php:248 vc-modules/testimonial.php:212
+#: vc-modules/woo-feature-product-isotope.php:228
+#: vc-modules/woo-popular-product-slider.php:217
+#: vc-modules/woo-product-slider.php:220
+msgid "Number of columns ( Phones < 768px )"
+msgstr ""
+
+#: vc-modules/post-grid.php:196 vc-modules/post.php:219
+#: vc-modules/project-slider.php:223 vc-modules/team-slider.php:261
+#: vc-modules/testimonial.php:225 vc-modules/woo-popular-product-slider.php:226
+#: vc-modules/woo-product-slider.php:229
+msgid "Number of columns ( Small Phones < 480px )"
+msgstr ""
+
+#: vc-modules/post-grid.php:178 vc-modules/post.php:201
+#: vc-modules/project-grid.php:250 vc-modules/project-slider.php:201
+#: vc-modules/service-grid.php:199 vc-modules/team-grid.php:201
+#: vc-modules/team-slider.php:235 vc-modules/testimonial.php:199
+#: vc-modules/woo-feature-product-isotope.php:219
+#: vc-modules/woo-popular-product-slider.php:208
+#: vc-modules/woo-product-slider.php:211
+msgid "Number of columns ( Tablets > 767px )"
+msgstr ""
+
+#: widgets/rt-recent-post-widget.php:91
+msgid "Number of posts to show"
+msgstr ""
+
+#: vc-modules/rt-counter.php:155
+msgid "Number to count eg. 5780"
+msgstr ""
+
+#: vc-modules/contact-info.php:16
+msgid "OFFICE ADDRESS"
+msgstr ""
+
+#: vc-modules/pricing-box.php:88
+msgid ""
+"One line per feature. Put BLANK keyword if you want blank line. eg.<br/>"
+"Investment Plan</br>Education Loan</br>Tax Planning</br>BLANK"
+msgstr ""
+
+#: vc-modules/open-hour.php:43
+msgid "Opening Hour like \"10.00AM - 8.00PM\""
+msgstr ""
+
+#: vc-modules/post-grid.php:63 vc-modules/post.php:71
+#: vc-modules/project-grid.php:168 vc-modules/project-slider.php:128
+#: vc-modules/service-grid.php:117 vc-modules/team-grid.php:130
+#: vc-modules/team-slider.php:162 vc-modules/testimonial.php:110
+#: vc-modules/woo-feature-product-isotope.php:131
+#: vc-modules/woo-popular-product-slider.php:97
+#: vc-modules/woo-product-slider.php:100
+msgid "Order By"
+msgstr ""
+
+#: vc-modules/history-box.php:16
+msgid "Our <span class=\"greenova-primary-color\">Successful</span> History"
+msgstr ""
+
+#: vc-modules/woo-product-slider.php:16
+msgid "Our Best Deals"
+msgstr ""
+
+#: vc-modules/text-with-video.php:17
+msgid "Our Company History"
+msgstr ""
+
+#: vc-modules/team-slider.php:16
+msgid "Our Expert Team"
+msgstr ""
+
+#: vc-modules/post-grid.php:16 vc-modules/post.php:16
+msgid "Our Latest News"
+msgstr ""
+
+#: vc-modules/woo-popular-product-slider.php:16
+msgid "Our Popular Product Slider"
+msgstr ""
+
+#: vc-modules/project-slider.php:16
+msgid "OUR PROJECTS"
+msgstr ""
+
+#: vc-modules/project-grid.php:23
+msgid "Our Projects"
+msgstr ""
+
+#: vc-modules/views/featured-product1.php:148
+#: vc-modules/views/woo-category-product-slider.php:85
+#: vc-modules/views/woo-feature-product-slider.php:84
+#: vc-modules/views/woo-popular-product-slider-1.php:85
+#: vc-modules/views/woo-popular-product-slider-2.php:78
+#: vc-modules/views/woo-product-wise-slider.php:79
+#: vc-modules/views/woo-sale-product-slider.php:83
+msgid "out of 5"
+msgstr ""
+
+#: vc-modules/rt-image.php:31
+msgid "Overlay Image"
+msgstr ""
+
+#: vc-modules/project-grid.php:182 vc-modules/team-grid.php:153
+#: vc-modules/woo-feature-product-isotope.php:145
+msgid "Pagination Display"
+msgstr ""
+
+#: vc-modules/contact-box.php:75 vc-modules/contact-info.php:65
+#: vc-modules/views/contact-1.php:30
+msgid "Phone"
+msgstr ""
+
+#: vc-modules/cta.php:147
+msgid "Phone Color"
+msgstr ""
+
+#: post-meta.php:284 vc-modules/cta.php:135 widgets/address-widget.php:83
+msgid "Phone Number"
+msgstr ""
+
+#: vc-modules/cta.php:123
+msgid "Phone Upper Text"
+msgstr ""
+
+#: post-meta.php:240
+msgid "Pinterest"
+msgstr ""
+
+#: widgets/social-widget.php:115
+msgid "Pinterest URL"
+msgstr ""
+
+#: vc-modules/views/open-hour.php:49 vc-modules/views/progress-1.php:30
+#: vc-modules/views/progress-2.php:31
+msgid "Please insert some data"
+msgstr ""
+
+#: vc-modules/woo-popular-product-slider.php:72
+#: vc-modules/woo-product-slider.php:75
+msgid "Please Write the Product ID by comma separated. eg. 15,25,481"
+msgstr ""
+
+#: vc-modules/history-box.php:60
+msgid "Point Text"
+msgstr ""
+
+#: vc-modules/history-box.php:52
+msgid "Point Title"
+msgstr ""
+
+#: vc-modules/post-grid.php:77 vc-modules/post.php:85
+#: vc-modules/project-grid.php:157 vc-modules/project-slider.php:142
+#: vc-modules/service-grid.php:106 vc-modules/team-grid.php:119
+#: vc-modules/team-slider.php:176 vc-modules/testimonial.php:124
+#: vc-modules/woo-feature-product-isotope.php:120
+#: vc-modules/woo-popular-product-slider.php:111
+#: vc-modules/woo-product-slider.php:114
+msgid "Post Display Order"
+msgstr ""
+
+#: vc-modules/pricing-box.php:67
+msgid "Price"
+msgstr ""
+
+#: vc-modules/woo-popular-product-slider.php:69
+#: vc-modules/woo-product-slider.php:72
+msgid "Product IDs"
+msgstr ""
+
+#: vc-modules/woo-product-slider.php:52
+msgid "Product Wise"
+msgstr ""
+
+#: post-types.php:28 post-types.php:29
+msgid "Project"
+msgstr ""
+
+#: post-types.php:49
+msgid "Project Categories"
+msgstr ""
+
+#: post-types.php:48
+msgid "Project Category"
+msgstr ""
+
+#: post-meta.php:186
+msgid "Project Info"
+msgstr ""
+
+#: post-meta.php:294
+msgid "Put your social links here"
+msgstr ""
+
+#. Author of the plugin
+msgid "RadiusTheme"
+msgstr ""
+
+#: vc-modules/about.php:17 vc-modules/info-text.php:18
+#: vc-modules/service-grid.php:23 vc-modules/views/post-style-7.php:64
+#: vc-modules/views/project-grid10.php:122
+#: vc-modules/views/project-grid11.php:110
+#: vc-modules/views/project-grid11.php:132
+#: vc-modules/views/project-grid4.php:105
+#: vc-modules/views/project-grid6.php:122
+#: vc-modules/views/project-grid9.php:113 vc-modules/views/service-grid3.php:82
+#: vc-modules/views/service-grid5.php:80
+msgid "Read More"
+msgstr ""
+
+#: widgets/rt-recent-post-widget.php:23
+msgid "Recent Posts"
+msgstr ""
+
+#: vc-modules/info-text.php:145 vc-modules/project-grid.php:98
+#: vc-modules/rt-counter.php:141 vc-modules/text-with-button.php:46
+#: vc-modules/title.php:255
+msgid "Right"
+msgstr ""
+
+#: post-meta.php:29
+msgid "Right Sidebar"
+msgstr ""
+
+#: vc-modules/text-with-video.php:79
+msgid ""
+"Rimply dummy text of the printing and typesetting istrykorem Ipsum hasbeen "
+"daand scrambled.make a type specimen book. Lorem ipsum dolor sit ameen uer "
+"adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dol agna "
+"aliquam erat volutpat. Ut wisi enim ad minim veniamnostrud exerci "
+"ullamcorper suscipit ut aliquip exea.<br>scrambled.make a type specimen book."
+" Lorem ipsum dolor sit ameen uer adipiscing elit, sed diam nonummy nibh "
+"euismod"
+msgstr ""
+
+#: vc-modules/views/featured-product1.php:137
+msgid "Sale"
+msgstr ""
+
+#: vc-modules/project-grid.php:108
+msgid "Section Sub Title"
+msgstr ""
+
+#: vc-modules/post.php:123 vc-modules/project-slider.php:86
+msgid "Section SubTitle"
+msgstr ""
+
+#: vc-modules/post.php:111 vc-modules/project-grid.php:81
+#: vc-modules/project-slider.php:74 vc-modules/team-slider.php:120
+#: vc-modules/testimonial.php:150 vc-modules/woo-feature-product-isotope.php:71
+#: vc-modules/woo-popular-product-slider.php:133
+#: vc-modules/woo-product-slider.php:136
+msgid "Section Title"
+msgstr ""
+
+#: vc-modules/post.php:149 vc-modules/project-slider.php:97
+#: vc-modules/team-slider.php:131 vc-modules/woo-popular-product-slider.php:144
+#: vc-modules/woo-product-slider.php:147
+msgid "Section Title Color"
+msgstr ""
+
+#: vc-modules/testimonial.php:161
+msgid "Section Title color"
+msgstr ""
+
+#: vc-modules/post.php:96 vc-modules/project-slider.php:59
+#: vc-modules/woo-popular-product-slider.php:122
+#: vc-modules/woo-product-slider.php:125
+msgid "Section Title Display"
+msgstr ""
+
+#: vc-modules/title.php:266
+msgid "Section Width"
+msgstr ""
+
+#: post-types.php:22 post-types.php:23
+msgid "Service"
+msgstr ""
+
+#: post-types.php:44
+msgid "Service Categories"
+msgstr ""
+
+#: post-types.php:43
+msgid "Service Category"
+msgstr ""
+
+#: post-meta.php:329
+msgid "Service Info"
+msgstr ""
+
+#: post-meta.php:336
+msgid "Service Info Description"
+msgstr ""
+
+#: post-meta.php:332
+msgid "Service Info Title"
+msgstr ""
+
+#: vc-modules/post.php:288 vc-modules/project-slider.php:320
+#: vc-modules/team-slider.php:358 vc-modules/testimonial.php:306
+#: vc-modules/woo-popular-product-slider.php:295
+#: vc-modules/woo-product-slider.php:298
+msgid ""
+"Set any value for example 5 seconds to play it in every 5 seconds. Default: "
+"5 Seconds"
+msgstr ""
+
+#: vc-modules/text-with-button.php:34
+msgid "Shop Page Special Layout"
+msgstr ""
+
+#: vc-modules/text-with-button.php:53
+msgid "Short Description"
+msgstr ""
+
+#: vc-modules/info-text.php:159 vc-modules/title.php:59
+msgid "Show"
+msgstr ""
+
+#: vc-modules/post-grid.php:88 vc-modules/post.php:135
+msgid "Show Comment Count"
+msgstr ""
+
+#: vc-modules/team-grid.php:168 vc-modules/team-slider.php:105
+msgid "Show Content"
+msgstr ""
+
+#: vc-modules/info-text.php:156
+msgid "Show Icon Border"
+msgstr ""
+
+#: vc-modules/project-grid.php:120 vc-modules/service-grid.php:95
+#: vc-modules/woo-feature-product-isotope.php:83
+msgid "Show Link"
+msgstr ""
+
+#: vc-modules/project-slider.php:109
+msgid "Show Link on Element"
+msgstr ""
+
+#: vc-modules/team-slider.php:94
+msgid "Show Link to Detail"
+msgstr ""
+
+#: vc-modules/woo-feature-product-isotope.php:167
+#: vc-modules/woo-popular-product-slider.php:163
+#: vc-modules/woo-product-slider.php:166
+msgid "Show Price"
+msgstr ""
+
+#: vc-modules/woo-feature-product-isotope.php:156
+#: vc-modules/woo-popular-product-slider.php:152
+#: vc-modules/woo-product-slider.php:155
+msgid "Show Rating"
+msgstr ""
+
+#: vc-modules/service-grid.php:80
+msgid "Show Shadow"
+msgstr ""
+
+#: vc-modules/project-grid.php:66 vc-modules/testimonial.php:135
+#: vc-modules/woo-feature-product-isotope.php:56
+msgid "Show Title"
+msgstr ""
+
+#: vc-modules/text-with-video.php:16
+msgid "Since 1996"
+msgstr ""
+
+#: post-meta.php:311
+msgid "Skill Name"
+msgstr ""
+
+#: post-meta.php:316
+msgid "Skill Percentage (%)"
+msgstr ""
+
+#: post-meta.php:228
+msgid "Skype"
+msgstr ""
+
+#: vc-modules/post.php:302 vc-modules/project-slider.php:338
+#: vc-modules/team-slider.php:376 vc-modules/testimonial.php:320
+#: vc-modules/woo-popular-product-slider.php:309
+#: vc-modules/woo-product-slider.php:312
+msgid "Slide speed in milliseconds. Default: 200"
+msgstr ""
+
+#: vc-modules/post.php:235 vc-modules/post.php:252 vc-modules/post.php:269
+#: vc-modules/post.php:289 vc-modules/post.php:303 vc-modules/post.php:316
+#: vc-modules/project-slider.php:243 vc-modules/project-slider.php:259
+#: vc-modules/project-slider.php:276 vc-modules/project-slider.php:297
+#: vc-modules/project-slider.php:321 vc-modules/project-slider.php:339
+#: vc-modules/project-slider.php:356 vc-modules/team-slider.php:281
+#: vc-modules/team-slider.php:297 vc-modules/team-slider.php:314
+#: vc-modules/team-slider.php:335 vc-modules/team-slider.php:359
+#: vc-modules/team-slider.php:377 vc-modules/team-slider.php:394
+#: vc-modules/testimonial.php:245 vc-modules/testimonial.php:257
+#: vc-modules/testimonial.php:270 vc-modules/testimonial.php:287
+#: vc-modules/testimonial.php:307 vc-modules/testimonial.php:321
+#: vc-modules/testimonial.php:334 vc-modules/woo-popular-product-slider.php:242
+#: vc-modules/woo-popular-product-slider.php:259
+#: vc-modules/woo-popular-product-slider.php:276
+#: vc-modules/woo-popular-product-slider.php:296
+#: vc-modules/woo-popular-product-slider.php:310
+#: vc-modules/woo-popular-product-slider.php:323
+#: vc-modules/woo-product-slider.php:245 vc-modules/woo-product-slider.php:262
+#: vc-modules/woo-product-slider.php:279 vc-modules/woo-product-slider.php:299
+#: vc-modules/woo-product-slider.php:313 vc-modules/woo-product-slider.php:326
+msgid "Slider Options"
+msgstr ""
+
+#: vc-modules/text-with-video.php:39
+msgid "Small Title"
+msgstr ""
+
+#: vc-modules/text-with-video.php:46
+msgid "Small Title Color"
+msgstr ""
+
+#: vc-modules/contact-box.php:95
+msgid "Social Links Display"
+msgstr ""
+
+#: vc-modules/contact-box.php:97
+msgid "Social Links which are already set in Theme Options"
+msgstr ""
+
+#: post-meta.php:292
+msgid "Socials"
+msgstr ""
+
+#: vc-modules/info-text.php:372
+msgid "Spacing After Title"
+msgstr ""
+
+#: vc-modules/info-text.php:360
+msgid "Spacing Before Title"
+msgstr ""
+
+#: vc-modules/info-text.php:362
+msgid "Spacing between icon and title in px eg. 25"
+msgstr ""
+
+#: vc-modules/info-text.php:374
+msgid "Spacing between title and content in px eg. 12"
+msgstr ""
+
+#: post-meta.php:258
+msgid "Stackoverflow"
+msgstr ""
+
+#: vc-modules/pricing-box.php:16
+msgid "STANDARD"
+msgstr ""
+
+#: vc-modules/post.php:268 vc-modules/project-slider.php:296
+#: vc-modules/team-slider.php:334 vc-modules/woo-popular-product-slider.php:275
+#: vc-modules/woo-product-slider.php:278
+msgid "Stop autoplay on mouse hover. Default: Enable"
+msgstr ""
+
+#: vc-modules/testimonial.php:286
+msgid "Stop autoplay on mouse hover. Default: Enabled"
+msgstr ""
+
+#: vc-modules/post.php:258 vc-modules/project-slider.php:286
+#: vc-modules/team-slider.php:324 vc-modules/testimonial.php:276
+#: vc-modules/woo-popular-product-slider.php:265
+#: vc-modules/woo-product-slider.php:268
+msgid "Stop on Hover"
+msgstr ""
+
+#: vc-modules/contact-box.php:24 vc-modules/cta.php:30
+#: vc-modules/post-grid.php:43 vc-modules/post.php:48
+#: vc-modules/progress-bar.php:27 vc-modules/rt-counter.php:32
+#: vc-modules/title.php:30
+msgid "Style"
+msgstr ""
+
+#: vc-modules/contact-box.php:27 vc-modules/cta.php:33
+#: vc-modules/post-grid.php:46 vc-modules/post.php:51
+#: vc-modules/pricing-box.php:31 vc-modules/project-grid.php:49
+#: vc-modules/rt-counter.php:35 vc-modules/service-grid.php:43
+#: vc-modules/team-grid.php:43 vc-modules/title.php:33
+#: vc-modules/woo-feature-product-isotope.php:48
+#: vc-modules/woo-popular-product-slider.php:49
+msgid "Style 1"
+msgstr ""
+
+#: vc-modules/project-grid.php:58
+msgid "Style 10"
+msgstr ""
+
+#: vc-modules/project-grid.php:59
+msgid "Style 11"
+msgstr ""
+
+#: vc-modules/contact-box.php:28 vc-modules/cta.php:34
+#: vc-modules/post-grid.php:47 vc-modules/post.php:52
+#: vc-modules/pricing-box.php:32 vc-modules/project-grid.php:50
+#: vc-modules/rt-counter.php:36 vc-modules/service-grid.php:44
+#: vc-modules/team-grid.php:44 vc-modules/woo-feature-product-isotope.php:49
+#: vc-modules/woo-popular-product-slider.php:50
+msgid "Style 2"
+msgstr ""
+
+#: vc-modules/title.php:34
+msgid "Style 2(Title with Bar)"
+msgstr ""
+
+#: vc-modules/cta.php:35 vc-modules/post-grid.php:48 vc-modules/post.php:53
+#: vc-modules/project-grid.php:51 vc-modules/rt-counter.php:37
+#: vc-modules/service-grid.php:45 vc-modules/team-grid.php:45
+msgid "Style 3"
+msgstr ""
+
+#: vc-modules/title.php:35
+msgid "Style 3(Title with Icon)"
+msgstr ""
+
+#: vc-modules/cta.php:36 vc-modules/post.php:54 vc-modules/project-grid.php:52
+#: vc-modules/rt-counter.php:38 vc-modules/service-grid.php:46
+#: vc-modules/team-grid.php:46
+msgid "Style 4"
+msgstr ""
+
+#: vc-modules/title.php:36
+msgid "Style 4(Title with Line)"
+msgstr ""
+
+#: vc-modules/post.php:55 vc-modules/project-grid.php:53
+#: vc-modules/service-grid.php:47 vc-modules/team-grid.php:47
+msgid "Style 5"
+msgstr ""
+
+#: vc-modules/title.php:37
+msgid "Style 5(Title with HTML)"
+msgstr ""
+
+#: vc-modules/post.php:56 vc-modules/project-grid.php:54
+msgid "Style 6"
+msgstr ""
+
+#: vc-modules/project-grid.php:55
+msgid "Style 7"
+msgstr ""
+
+#: vc-modules/project-grid.php:56
+msgid "Style 8"
+msgstr ""
+
+#: vc-modules/project-grid.php:57
+msgid "Style 9"
+msgstr ""
+
+#: vc-modules/contact-box.php:47 vc-modules/info-text.php:238
+msgid "Sub Title"
+msgstr ""
+
+#: vc-modules/info-text.php:262
+msgid "Sub Title color"
+msgstr ""
+
+#: vc-modules/title.php:203
+msgid "Sub Title Font Size"
+msgstr ""
+
+#: vc-modules/title.php:215
+msgid "Sub Title Text"
+msgstr ""
+
+#: vc-modules/cta.php:99 vc-modules/title.php:191
+msgid "Subtitle"
+msgstr ""
+
+#: vc-modules/cta.php:111 vc-modules/title.php:238
+msgid "Subtitle color"
+msgstr ""
+
+#: post-types.php:17
+msgid "Team"
+msgstr ""
+
+#: vc-modules/team-grid.php:107 vc-modules/team-slider.php:82
+msgid "Team Box Background Color"
+msgstr ""
+
+#: post-types.php:54
+msgid "Team Categories"
+msgstr ""
+
+#: post-types.php:53
+msgid "Team Category"
+msgstr ""
+
+#: post-types.php:13
+msgid "Team Member"
+msgstr ""
+
+#: post-meta.php:269
+msgid "Team Member Settings"
+msgstr ""
+
+#: post-types.php:14
+msgid "Team Members"
+msgstr ""
+
+#: post-meta.php:304
+msgid "Team Skills"
+msgstr ""
+
+#: post-types.php:34
+msgid "Testimonial"
+msgstr ""
+
+#: post-types.php:59
+msgid "Testimonial Categories"
+msgstr ""
+
+#: post-types.php:58
+msgid "Testimonial Category"
+msgstr ""
+
+#: post-meta.php:361
+msgid "Testimonial Info"
+msgstr ""
+
+#: post-types.php:35
+msgid "Testimonials"
+msgstr ""
+
+#: vc-modules/testimonial.php:76
+msgid "Text color"
+msgstr ""
+
+#: vc-modules/rt-counter.php:173
+msgid "The total duration of the count animation in milisecond eg. 5000"
+msgstr ""
+
+#: vc-modules/about.php:57 vc-modules/contact-box.php:35
+#: vc-modules/contact-info.php:27 vc-modules/cta.php:43
+#: vc-modules/history-box.php:30 vc-modules/info-text.php:230
+#: vc-modules/pricing-box.php:59 vc-modules/rt-counter.php:188
+#: vc-modules/title.php:44 vc-modules/title.php:86 vc-modules/video.php:54
+#: widgets/address-widget.php:71 widgets/rt-recent-post-widget.php:87
+#: widgets/social-widget.php:91
+msgid "Title"
+msgstr ""
+
+#: vc-modules/title.php:111
+msgid "Title 2"
+msgstr ""
+
+#: vc-modules/progress-bar.php:56
+msgid "Title Color"
+msgstr ""
+
+#: vc-modules/about.php:65 vc-modules/contact-info.php:42 vc-modules/cta.php:68
+#: vc-modules/info-text.php:250 vc-modules/open-hour.php:56
+#: vc-modules/rt-counter.php:95 vc-modules/testimonial.php:62
+#: vc-modules/text-with-button.php:72 vc-modules/title.php:227
+msgid "Title color"
+msgstr ""
+
+#: vc-modules/about.php:73 vc-modules/cta.php:76 vc-modules/info-text.php:294
+#: vc-modules/text-with-button.php:80
+msgid "Title Font Size"
+msgstr ""
+
+#: vc-modules/info-text.php:296
+msgid ""
+"Title font size in px. eg 20. If not defined, default h3 font size will be "
+"used"
+msgstr ""
+
+#: vc-modules/title.php:137
+msgid "Title Font Size( Desktop )"
+msgstr ""
+
+#: vc-modules/title.php:170
+msgid "Title Font Size( Mobile )"
+msgstr ""
+
+#: vc-modules/title.php:149
+msgid "Title Font Size( Tab )"
+msgstr ""
+
+#: vc-modules/text-with-button.php:88
+msgid "Title Font Weight"
+msgstr ""
+
+#: vc-modules/info-text.php:274
+msgid "Title Hover Color"
+msgstr ""
+
+#: vc-modules/cta.php:51 vc-modules/text-with-button.php:62
+msgid "Title Tag"
+msgstr ""
+
+#: widgets/cta-widget.php:69
+msgid "Title Text"
+msgstr ""
+
+#: vc-modules/info-text.php:286
+msgid "Title URL"
+msgstr ""
+
+#: vc-modules/cta.php:19
+msgid "Toll Free Call Us"
+msgstr ""
+
+#: post-meta.php:50
+msgid "Top Bar"
+msgstr ""
+
+#: post-meta.php:60
+msgid "Top Bar Layout"
+msgstr ""
+
+#: vc-modules/woo-feature-product-isotope.php:23
+msgid "Top Featured Products"
+msgstr ""
+
+#: vc-modules/post-grid.php:108 vc-modules/post.php:174
+#: vc-modules/project-slider.php:166 vc-modules/team-slider.php:200
+#: vc-modules/testimonial.php:93 vc-modules/woo-popular-product-slider.php:181
+#: vc-modules/woo-product-slider.php:184
+msgid "Total number of items"
+msgstr ""
+
+#: post-meta.php:40
+msgid "Transparent Header"
+msgstr ""
+
+#: post-meta.php:210
+msgid "Twitter"
+msgstr ""
+
+#: widgets/social-widget.php:103
+msgid "Twitter URL"
+msgstr ""
+
+#: vc-modules/pricing-box.php:76
+msgid "Unit Name"
+msgstr ""
+
+#: vc-modules/award-box.php:65 vc-modules/info-text.php:94
+msgid "Upload icon image"
+msgstr ""
+
+#: vc-modules/video.php:74
+msgid "Video Link"
+msgstr ""
+
+#: vc-modules/text-with-video.php:67
+msgid "Video link"
+msgstr ""
+
+#: vc-modules/video.php:16
+msgid "Video Tour"
+msgstr ""
+
+#: vc-modules/post-grid.php:18 vc-modules/project-grid.php:25
+#: vc-modules/team-grid.php:23 vc-modules/woo-feature-product-isotope.php:24
+msgid "View All"
+msgstr ""
+
+#: vc-modules/views/team-5.php:57
+msgid "View Bio"
+msgstr ""
+
+#: vc-modules/history-box.php:18
+msgid "We are Expert"
+msgstr ""
+
+#: vc-modules/team-slider.php:17
+msgid "We Are Expert In Work"
+msgstr ""
+
+#: vc-modules/open-hour.php:36
+msgid "Weekdays like \"Saturday , Sunday\""
+msgstr ""
+
+#: vc-modules/title.php:16
+msgid "Welcome To Greenova"
+msgstr ""
+
+#: vc-modules/testimonial.php:23
+msgid "What Our Custmer Say"
+msgstr ""
+
+#: vc-modules/text-with-button.php:122
+msgid "White Background"
+msgstr ""
+
+#: vc-modules/post-grid.php:99 vc-modules/post.php:161
+#: vc-modules/project-grid.php:148 vc-modules/project-slider.php:153
+#: vc-modules/service-grid.php:71 vc-modules/team-grid.php:95
+#: vc-modules/team-slider.php:187
+#: vc-modules/woo-feature-product-isotope.php:111
+msgid "Word count"
+msgstr ""
+
+#: vc-modules/project-grid.php:24 vc-modules/project-slider.php:17
+msgid "Worked We Have Done"
+msgstr ""
+
+#: vc-modules/open-hour.php:16
+msgid "Working Hours"
+msgstr ""
+
+#: widgets/address-widget.php:75
+msgid "Working Time"
+msgstr ""
+
+#: vc-modules/post-grid.php:111 vc-modules/post.php:177
+#: vc-modules/project-grid.php:134 vc-modules/project-slider.php:169
+#: vc-modules/service-grid.php:57 vc-modules/team-grid.php:147
+#: vc-modules/team-slider.php:203 vc-modules/testimonial.php:96
+#: vc-modules/woo-feature-product-isotope.php:97
+#: vc-modules/woo-popular-product-slider.php:184
+#: vc-modules/woo-product-slider.php:187
+msgid "Write -1 to show all"
+msgstr ""
+
+#: vc-modules/testimonial.php:87
+msgid "Write number to show all content."
+msgstr ""
+
+#: widgets/rt-recent-post-widget.php:10
+msgid "Your site&#8217;s most recent Posts with Image."
+msgstr ""
+
+#: post-meta.php:234
+msgid "Youtube"
+msgstr ""

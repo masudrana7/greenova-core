@@ -1,0 +1,56 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 06/02/2018 16:39
+  	*/
+
+@font-face {
+  font-family: "Flaticon-green-2";
+  src: url("./Flaticon-green-2.eot");
+  src: url("./Flaticon-green-2.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon-green-2.woff") format("woff"),
+       url("./Flaticon-green-2.ttf") format("truetype"),
+       url("./Flaticon-green-2.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon-green-2";
+    src: url("./Flaticon-green-2.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-green-2-"]:before, [class*=" flaticon-green-2-"]:before,
+[class^="flaticon-green-2-"]:after, [class*=" flaticon-green-2-"]:after {   
+	font-family: Flaticon-green-2;
+	font-style: normal;
+}
+
+.flaticon-green-2-chat:before { content: "\f100"; }
+.flaticon-green-2-business:before { content: "\f101"; }
+.flaticon-green-2-earth-globe:before { content: "\f102"; }
+.flaticon-green-2-avatar:before { content: "\f103"; }
+.flaticon-green-2-share:before { content: "\f104"; }
+.flaticon-green-2-users:before { content: "\f105"; }
+.flaticon-green-2-rake:before { content: "\f106"; }
+.flaticon-green-2-fax:before { content: "\f107"; }
+.flaticon-green-2-arroba:before { content: "\f108"; }
+.flaticon-green-2-placeholder:before { content: "\f109"; }
+.flaticon-green-2-telephone:before { content: "\f10a"; }
+.flaticon-green-2-fences:before { content: "\f10b"; }
+.flaticon-green-2-lawn-mower:before { content: "\f10c"; }
+.flaticon-green-2-watering-can:before { content: "\f10d"; }
+.flaticon-green-2-pruning-shears:before { content: "\f10e"; }
+.flaticon-green-2-grass:before { content: "\f10f"; }
+.flaticon-green-2-flower:before { content: "\f110"; }
+.flaticon-green-2-wheelbarrow:before { content: "\f111"; }
+.flaticon-green-2-clock-circular-outline:before { content: "\f112"; }
+.flaticon-green-2-nature:before { content: "\f113"; }
+.flaticon-green-2-call-answer:before { content: "\f114"; }
+.flaticon-green-2-envelope:before { content: "\f115"; }
+.flaticon-green-2-heart:before { content: "\f116"; }
+.flaticon-green-2-locked:before { content: "\f117"; }
+.flaticon-green-2-magnifying-glass-browser:before { content: "\f118"; }
+.flaticon-green-2-shopping-cart:before { content: "\f119"; }
+.flaticon-green-2-shopping-basket:before { content: "\f11a"; }
