@@ -6,6 +6,7 @@
  */
 
 namespace radiustheme\Greenova_Core;
+if ( ! defined( 'ABSPATH' ) ) exit;
 $subtitle         = $data['subtitle'];
 $phone_upper_text = $data['phone_upper_text'];
 $phone_number     = $data['phone_number'];

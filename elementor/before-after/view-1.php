@@ -6,6 +6,7 @@
  */
 
 namespace radiustheme\Greenova_Core;
+if ( ! defined( 'ABSPATH' ) ) exit;
 ?>
 <div class="rt-after-before rt-before-after-wrapper">
     <div class="rtin-ba-text">

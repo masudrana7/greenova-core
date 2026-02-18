@@ -1,4 +1,5 @@
 <?php
+if ( ! defined( 'ABSPATH' ) ) exit;
 add_action( 'plugins_loaded', 'greenova_core_load_demo_importer', 15 );
 function greenova_core_load_demo_importer(){
 	add_filter( 'plugin_action_links_rt-demo-importer/rt-demo-importer.php', 'greenova_core_importer_add_action_links' );

@@ -105,7 +105,7 @@ if ( !class_exists( 'GREENOVA_Theme_VC_Award_Box' ) ) {
 					"class" => "",
 					"heading" => __( "Content", 'greenova-core' ),
 					"param_name" => "content",
-					"value" => __( 'I am Info Text block. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.' ),
+					"value" => __( 'I am Info Text block. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.', 'greenova-core' ),
 					),
 				array(
 					"type" => "textfield",

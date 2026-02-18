@@ -6,6 +6,7 @@
  */
 
 namespace radiustheme\Greenova_Core;
+if ( ! defined( 'ABSPATH' ) ) exit;
 ?>
 
 <div class="rt-vc-counter rt-counter-wrapper">

@@ -1,4 +1,5 @@
 <?php
+if ( ! defined( 'ABSPATH' ) ) exit;
 /*
 Plugin Name: Greenova Core
 Plugin URI: http://radiustheme.com

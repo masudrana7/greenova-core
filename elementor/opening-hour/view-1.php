@@ -6,6 +6,7 @@
  */
 
 namespace radiustheme\Greenova_Core;
+if ( ! defined( 'ABSPATH' ) ) exit;
 
 $tabs   = $data['opening_hour_list'];
 $count1 = 1;

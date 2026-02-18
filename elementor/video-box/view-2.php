@@ -6,6 +6,7 @@
  */
 
 namespace radiustheme\Greenova_Core;
+if ( ! defined( 'ABSPATH' ) ) exit;
 $paly_icon = 'fa fa-play';
 if ( $data['btn_icon'] ) {
 	$paly_icon = $data['btn_icon'];

@@ -6,6 +6,7 @@
  */
 
 namespace radiustheme\Greenova_Core;
+if ( ! defined( 'ABSPATH' ) ) exit;
 
 $alignment = $align_class = '';
 if ( $box_align = $data['text_align'] ) {

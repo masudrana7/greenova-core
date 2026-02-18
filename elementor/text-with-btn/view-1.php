@@ -6,6 +6,7 @@
  */
 
 namespace radiustheme\Greenova_Core;
+if ( ! defined( 'ABSPATH' ) ) exit;
 
 $show_cion = '';
 if ( $data['btn_style'] == 'rt-custom-button' ) {

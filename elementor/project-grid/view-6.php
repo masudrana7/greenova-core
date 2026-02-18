@@ -7,6 +7,7 @@
  */
 
 namespace radiustheme\Greenova_Core;
+if ( ! defined( 'ABSPATH' ) ) exit;
 
 $thumb_size = ( $data['project_thumbnail_size'] ? $data['project_thumbnail_size'] : 'greenova-size17' );
 

@@ -6,6 +6,7 @@
  */
 
 namespace radiustheme\Greenova_Core;
+if ( ! defined( 'ABSPATH' ) ) exit;
 $thumb_size = $data['project_thumbnail_size'] ? $data['project_thumbnail_size'] : 'greenova-size8';
 $args       = [
 	'post_type'           => 'post',
@@ -117,7 +118,7 @@ $owl_data         = json_encode( $data['owl_data'] );
 			<?php endwhile; ?>
 		<?php } else { ?>
             <div class="rtin-single-news">
-				<?php esc_html_e( 'No Post Found', 'miakolegal-core' ); ?>
+				<?php esc_html_e( 'No Post Found', 'greenova-core' ); ?>
             </div>
 		<?php } ?>
 		<?php wp_reset_query(); ?>

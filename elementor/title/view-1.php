@@ -6,6 +6,7 @@
  */
 
 namespace radiustheme\Greenova_Core;
+if ( ! defined( 'ABSPATH' ) ) exit;
 $alignment = $data['alignment'];
 if ( 'center' == $alignment ) {
 	$alignment_style = 'text-align:center';

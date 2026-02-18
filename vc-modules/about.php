@@ -80,7 +80,7 @@ if ( !class_exists( 'GREENOVA_Theme_VC_About' ) ) {
 					"class" 	 => "",
 					"heading" 	 => __( "Content", 'greenova-core' ),
 					"param_name" => "content",
-					"value" 	 =>  __( 'There are many variations of passages of Lorem Ipsum availabbut the humourrandomisedwords.There are many variations of passages of Lorem Ipsum availablebut the majority.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla varius consequat magna, id molestie ipsum volutpat quis. Suspendisse consectetur fringilla suctus.' ),
+					"value" 	 =>  __( 'There are many variations of passages of Lorem Ipsum availabbut the humourrandomisedwords.There are many variations of passages of Lorem Ipsum availablebut the majority.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla varius consequat magna, id molestie ipsum volutpat quis. Suspendisse consectetur fringilla suctus.', 'greenova-core' ),
 					"rows"		 => "1",
 				),
 				array(

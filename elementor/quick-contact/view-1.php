@@ -6,6 +6,7 @@
  */
 
 namespace radiustheme\Greenova_Core;
+if ( ! defined( 'ABSPATH' ) ) exit;
 ?>
 
 <div class="rt-contact-info <?php echo esc_attr( $data['text_align'] ) ?>">

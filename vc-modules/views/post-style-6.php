@@ -53,7 +53,7 @@ $slider_dot_class = ( $slider_dots == 'true' ) ? ' slider-dot-enabled' : '';
 		<?php endwhile;?>
 	<?php } else { ?>
 		<div class="rtin-single-news">
-			<?php esc_html_e( 'No Post Found' , 'miakolegal-core' ); ?>
+			<?php esc_html_e( 'No Post Found' , 'greenova-core' ); ?>
 		</div>
 	<?php } ?>
 	<?php wp_reset_query();?>

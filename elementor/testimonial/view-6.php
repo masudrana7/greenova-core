@@ -6,6 +6,7 @@
  */
 
 namespace radiustheme\Greenova_Core;
+if ( ! defined( 'ABSPATH' ) ) exit;
 $thumb_size = 'greenova-size3';
 $args       = [
 	'post_type'      => 'green_testimonial',

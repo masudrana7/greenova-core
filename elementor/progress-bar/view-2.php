@@ -6,6 +6,7 @@
  */
 
 namespace radiustheme\Greenova_Core;
+if ( ! defined( 'ABSPATH' ) ) exit;
 
 ?>
 <div class="rt-progress-bar rt-progress-<?php echo esc_attr($data['layout']);?>">

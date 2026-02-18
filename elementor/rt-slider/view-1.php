@@ -6,6 +6,7 @@
  */
 
 namespace radiustheme\Greenova_Core;
+if ( ! defined( 'ABSPATH' ) ) exit;
 $show_dots   = ( in_array( $data['navigation'], [ 'dots', 'both' ] ) );
 $show_arrows = ( in_array( $data['navigation'], [ 'arrows', 'both' ] ) );
 

@@ -6,6 +6,7 @@
  */
 
 namespace radiustheme\Greenova_Core;
+if ( ! defined( 'ABSPATH' ) ) exit;
 
 $greenova_socials = \GREENOVA_Theme_Helper::socials();
 ?>

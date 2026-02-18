@@ -306,7 +306,7 @@ if ( !class_exists( 'GREENOVA_Theme_VC_Info_Text' ) ) {
 					"class" => "",
 					"heading" => __( "Content", 'greenova-core' ),
 					"param_name" => "content",
-					"value" => __( 'Content Sample' ),
+					"value" => __( 'Content Sample', 'greenova-core' ),
 					'dependency' => array(
 						'element' => 'layout',
 						'value'   => array( 'layout1', 'layout2', 'layout3', 'layout4', 'layout5', 'layout7', 'layout9', 'layout11' ),

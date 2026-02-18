@@ -6,6 +6,7 @@
  */
 
 namespace radiustheme\Greenova_Core;
+if ( ! defined( 'ABSPATH' ) ) exit;
 $thumb_size = ( $data['thumbnail_size'] ? $data['thumbnail_size'] : 'greenova-size4' );
 if ( get_query_var( 'paged' ) ) {
 	$paged = get_query_var( 'paged' );
