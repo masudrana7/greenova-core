@@ -141,7 +141,7 @@ $nofollow = $data['view_all_btn_url']['nofollow'] ? ' rel="nofollow"' : '';
 
 		<?php if ( $data['show_view_all_btn'] && $data['view_all_btn_text'] ) { ?>
             <div class="rt-grid-fill-btn">
-                <a href="<?php echo esc_url( $data['view_all_btn_url']['url'] ); ?>" class="grid-fill-btn" <?php echo( $target . $nofollow ); ?>>
+                <a href="<?php echo esc_url( $data['view_all_btn_url']['url'] ); ?>" class="grid-fill-btn" <?php echo esc_attr( $target . $nofollow ); ?>>
                     <span><?php echo esc_html( $data['view_all_btn_text'] ); ?></span>
                 </a>
             </div>

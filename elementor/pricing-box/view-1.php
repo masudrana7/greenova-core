@@ -19,7 +19,7 @@ $price_html .= ! empty( $unit ) ? "<span> /{$unit}</span>" : '';
         <h3><?php echo wp_kses_post( $price_html ); ?></h3>
     </div>
     <div class="feature-box">
-		<?php echo $data['feature']; ?>
+		<?php echo esc_html( $data['feature'] ); ?>
     </div>
 
 	<?php if ( $data['button_text'] ) {
@@ -27,7 +27,7 @@ $price_html .= ! empty( $unit ) ? "<span> /{$unit}</span>" : '';
 		$nofollow = $data['button_url']['nofollow'] ? ' rel="nofollow"' : '';
 		?>
         <div class="rtin-price-button">
-            <a class="btn-price-button" href="<?php echo esc_url( $data['button_url']['url'] ); ?>" <?php echo $target . $nofollow; ?>>
+            <a class="btn-price-button" href="<?php echo esc_url( $data['button_url']['url'] ); ?>" <?php echo esc_attr( $target . $nofollow ); ?>>
 				<?php echo esc_html( $data['button_text'] ); ?>
             </a>
         </div>

@@ -224,7 +224,7 @@ if ( ! class_exists( 'GREENOVA_Theme_VC_Title' ) ) {
 					"class"      => "",
 					"heading"    => __( "Sub Title Text", 'greenova-core' ),
 					"param_name" => "content",
-					"value"      => __( '', 'greenova-core' ),
+					"value"      => __( 'Sub Title', 'greenova-core' ),
 					"rows"       => "1",
 					'dependency' => [
 						'element' => 'layout',

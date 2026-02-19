@@ -15,7 +15,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 } // Exit if accessed directly
 
 abstract class Custom_Widget_Base extends Widget_Base {
-
 	public $rt_name;
 	public $rt_base;
 	public $rt_category;
@@ -28,23 +27,18 @@ abstract class Custom_Widget_Base extends Widget_Base {
 		$this->rt_dir      = dirname( ( new ReflectionClass( $this ) )->getFileName() );
 		parent::__construct( $data, $args );
 	}
-
 	public function get_name() {
 		return $this->rt_base;
 	}
-
 	public function get_title() {
 		return $this->rt_name;
 	}
-
 	public function get_icon() {
 		return $this->rt_icon;
 	}
-
 	public function get_categories() {
 		return [ $this->rt_category ];
 	}
-
 	public function rt_template( $template, $data ) {
 		$template_name = DIRECTORY_SEPARATOR . 'elementor-custom' . DIRECTORY_SEPARATOR . basename( $this->rt_dir ) . DIRECTORY_SEPARATOR . $template . '.php';
 		if ( file_exists( get_stylesheet_directory() . $template_name ) ) {
@@ -57,7 +51,7 @@ abstract class Custom_Widget_Base extends Widget_Base {
 
 		ob_start();
 		include $file;
-		echo ob_get_clean();
+		echo wp_kses_post( ob_get_clean() );
 	}
 
 	//Get Custom post category:
@@ -94,7 +88,6 @@ abstract class Custom_Widget_Base extends Widget_Base {
 		foreach ( $tags as $tag ) {
 			$tag_list[ $tag->slug ] = $tag->name;
 		}
-
 		return $tag_list;
 	}
 
@@ -106,8 +99,6 @@ abstract class Custom_Widget_Base extends Widget_Base {
 			$image_sizes[ $index ] = __( ucwords( $index . ' - ' . $item['width'] . 'x' . $item['height'] ), 'greenova-core' );
 		}
 		$image_sizes['full'] = __( "Full Size", 'greenova-core' );
-
 		return $image_sizes;
 	}
-
 }

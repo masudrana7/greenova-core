@@ -102,7 +102,7 @@ $owl_data          = json_encode( $data['owl_data'] );
                     <div class="rtin-item-info post-wrap-bg post-inner-paddnig">
                         <div class="meta-info mb-15">
 							<?php if ( $data['author_visibility'] ) : ?>
-                                <span class="by-author post-meta"><i class="fa fa-user-circle" aria-hidden="true"></i><?php _e( '<span> By </span>', 'greenova-core' )
+                                <span class="by-author post-meta"><i class="fa fa-user-circle" aria-hidden="true"></i><?php esc_html_e( '<span> By </span>', 'greenova-core' )
 								                                                                                            . the_author_posts_link(); ?></span>
 							<?php endif; ?>
 

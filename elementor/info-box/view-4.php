@@ -14,7 +14,7 @@ $nofollow = $data['link']['nofollow'] ? ' rel="nofollow"' : '';
     <div class="service-box">
         <div class="icon-holder">
 			<?php
-			echo $data['link']['url'] ? '<a href="' . $data['link']['url'] . '"' . $target . $nofollow . '>' : null;
+			echo $data['link']['url'] ? '<a href="' . esc_url( $data['link']['url'] ) . '"' . $target . $nofollow . '>' : null;
 			if ( 'image' == $data['icon_type'] ) {
 				echo '<span style="display: block">';
 				echo wp_get_attachment_image( $data['image_icon']['id'], 'full' );
@@ -32,7 +32,7 @@ $nofollow = $data['link']['nofollow'] ? ' rel="nofollow"' : '';
 			<?php if ( $data['title'] ) : ?>
                 <h3 class="info-title">
 					<?php
-					echo $data['link']['url'] ? '<a href="' . $data['link']['url'] . '"' . $target . $nofollow . '>' : null;
+					echo $data['link']['url'] ? '<a href="' . esc_url( $data['link']['url'] ) . '"' . $target . $nofollow . '>' : null;
 					echo wp_kses_post( $data['title'] );
 					echo $data['link']['url'] ? '</a>' : null;
 					?>

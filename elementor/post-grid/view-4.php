@@ -132,7 +132,7 @@ $col_class = "col-md-{$gird_column_desktop} col-sm-{$gird_column_tab} col-xs-{$g
 				$nofollow = $data['view_all_btn_link']['nofollow'] ? ' rel="nofollow"' : '';
 				?>
                 <div class="rt-grid-fill-btn col-sm-12 col-xs-12 entry-content">
-                    <a href="<?php echo esc_url( $data['view_all_btn_link']['url'] ); ?>" class="grid-fill-btn" <?php echo( $target . $nofollow ); ?>>
+                    <a href="<?php echo esc_url( $data['view_all_btn_link']['url'] ); ?>" class="grid-fill-btn" <?php echo esc_attr( $target . $nofollow ); ?>>
                         <span><?php echo esc_html( $data['view_all_text'] ); ?></span>
                     </a>
                 </div>

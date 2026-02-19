@@ -727,7 +727,7 @@ class RT_Image_Carousel extends Custom_Widget_Base {
 		?>
         <div <?php echo $this->get_render_attribute_string( 'carousel-wrapper' ); ?>>
             <div <?php echo $this->get_render_attribute_string( 'carousel' ); ?>>
-				<?php echo implode( '', $slides ); ?>
+				<?php echo wp_kses_post( implode( '', $slides ) ); ?>
             </div>
 			<?php if ( 1 < $slides_count ) : ?>
 				<?php if ( $show_dots ) : ?>
@@ -736,11 +736,11 @@ class RT_Image_Carousel extends Custom_Widget_Base {
 				<?php if ( $show_arrows ) : ?>
                     <div class="elementor-swiper-button elementor-swiper-button-prev">
                         <i class="eicon-chevron-left" aria-hidden="true"></i>
-                        <span class="elementor-screen-only"><?php _e( 'Previous', 'greenova-core' ); ?></span>
+                        <span class="elementor-screen-only"><?php esc_html_e( 'Previous', 'greenova-core' ); ?></span>
                     </div>
                     <div class="elementor-swiper-button elementor-swiper-button-next">
                         <i class="eicon-chevron-right" aria-hidden="true"></i>
-                        <span class="elementor-screen-only"><?php _e( 'Next', 'greenova-core' ); ?></span>
+                        <span class="elementor-screen-only"><?php esc_html_e( 'Next', 'greenova-core' ); ?></span>
                     </div>
 				<?php endif; ?>
 			<?php endif; ?>

@@ -106,7 +106,7 @@ $col_class = "col-md-{$gird_column_desktop} col-sm-{$gird_column_tab} col-xs-{$g
 							<?php endif; ?>
 							<?php if ( $data['comment_visibility'] ) { ?>
                                 <span class="comments post-meta"><i class="far fa-comments" aria-hidden="true"></i>
-							<a href="<?php echo get_comments_link( get_the_ID() ); ?>"><?php echo esc_html( $greenova_comments_html ); ?></a>
+							<a href="<?php echo esc_url( get_comments_link( get_the_ID() ) ); ?>"><?php echo esc_html( $greenova_comments_html ); ?></a>
 						</span>
 							<?php } ?>
                             <p class="post-excerpt"><?php echo wp_kses_post( $content ); ?></p>
@@ -119,7 +119,7 @@ $col_class = "col-md-{$gird_column_desktop} col-sm-{$gird_column_tab} col-xs-{$g
 				$nofollow = $data['view_all_btn_link']['nofollow'] ? ' rel="nofollow"' : '';
 				?>
                 <div class="rt-grid-fill-btn col-sm-12 col-xs-12 entry-content">
-                    <a href="<?php echo esc_url( $data['view_all_btn_link']['url'] ); ?>" class="grid-fill-btn" <?php echo( $target . $nofollow ); ?>>
+                    <a href="<?php echo esc_url( $data['view_all_btn_link']['url'] ); ?>" class="grid-fill-btn" <?php echo esc_attr( $target . $nofollow ); ?>>
                         <span><?php echo esc_html( $data['view_all_text'] ); ?></span>
                     </a>
                 </div>

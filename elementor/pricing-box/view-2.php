@@ -17,7 +17,7 @@ $price_html .= ! empty( $unit ) ? " <br><div class='price-unit'>/ $unit</div>" :
         <div class="price-holder"><?php echo wp_kses_post( $price_html ); ?></div>
         <div class="price-table-service">
             <div class="price-feature feature-box">
-				<?php echo $data['feature']; ?>
+				<?php echo esc_html( $data['feature'] ); ?>
             </div>
         </div>
 
@@ -25,7 +25,7 @@ $price_html .= ! empty( $unit ) ? " <br><div class='price-unit'>/ $unit</div>" :
 			$target   = $data['button_url']['is_external'] ? ' target="_blank"' : '';
 			$nofollow = $data['button_url']['nofollow'] ? ' rel="nofollow"' : '';
 			?>
-            <a class="pricetable-btn" href="<?php echo esc_url( $data['button_url']['url'] ); ?>" <?php echo $target . $nofollow; ?>>
+            <a class="pricetable-btn" href="<?php echo esc_url( $data['button_url']['url'] ); ?>" <?php echo esc_attr( $target . $nofollow ); ?>>
 				<?php echo esc_html( $data['button_text'] ); ?>
             </a>
 		<?php } ?>

@@ -48,8 +48,8 @@ if ( 'left' == $data['image_position'] ) {
 
         <div class="<?php echo esc_attr( $right_col ); ?> image-wrapper">
             <div class="rtin-about-image">
-                <a href="<?php echo esc_url( $data['button_url']['url'] ); ?>" <?php echo $target . $nofollow; ?>>
-					<?php echo \Elementor\Group_Control_Image_Size::get_attachment_image_html( $data, 'thumbnail', 'image' ); ?>
+                <a href="<?php echo esc_url( $data['button_url']['url'] ); ?>" <?php echo esc_attr( $target . $nofollow ); ?>>
+					<?php echo wp_kses_post( \Elementor\Group_Control_Image_Size::get_attachment_image_html( $data, 'thumbnail', 'image' ) ); ?>
                 </a>
             </div>
         </div>
