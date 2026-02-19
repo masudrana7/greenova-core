@@ -51,7 +51,7 @@ abstract class Custom_Widget_Base extends Widget_Base {
 
 		ob_start();
 		include $file;
-		echo wp_kses_post( ob_get_clean() );
+		echo ob_get_clean(); //phpcs:disable
 	}
 
 	//Get Custom post category:

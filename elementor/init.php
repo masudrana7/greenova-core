@@ -100,6 +100,11 @@ class Custom_Widget_Init {
 	 * Adding custom icon to icon control in Elementor
 	 */
 	public function flaticon_tab( $tabs = [] ) {
+		// Check if theme helper class exists
+		if ( ! class_exists( 'GREENOVA_Theme_Helper' ) ) {
+			return $tabs;
+		}
+
 		// Append new icons
 		$flat_icons = ElementorIconTrait::flaticon_icons();
 

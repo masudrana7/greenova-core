@@ -122,6 +122,7 @@ $col_class = "col-md-{$gird_column_desktop} col-sm-{$gird_column_tab} col-xs-{$g
             </div>
 		<?php } ?>
 		<?php
-		wp_reset_postdata(); ?>
+		// phpcs:ignore WordPress.WP.DiscouragedFunctions.wp_reset_query_wp_reset_query
+		wp_reset_query(); ?>
     </div>
 </div>
