@@ -32,6 +32,7 @@ if ( $data['order'] ) {
 if ( $data['post_source'] == 'by_category' && $data['taxonomies'] ) :
 	$args = wp_parse_args(
 		[
+			// phpcs:ignore WordPress.DB.SlowDBQuery.slow_db_query_tax_query
 			'tax_query' => [
 				[
 					'taxonomy' => 'greenova_testimonial_category',
