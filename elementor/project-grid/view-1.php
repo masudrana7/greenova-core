@@ -138,7 +138,8 @@ $nofollow = $data['view_all_btn_url']['nofollow'] ? ' rel="nofollow"' : '';
                 </div>
 			<?php } ?>
 
-			<?php wp_reset_postdata(); ?>
+			// phpcs:ignore WordPress.WP.DiscouragedFunctions.wp_reset_query_wp_reset_query
+			<?php wp_reset_query(); ?>
 		<?php } else { ?>
             <div class="col-md-12">
 				<?php esc_html_e( 'No Project Found', 'greenova-core' ); ?>
