@@ -6,7 +6,7 @@
  */
 
 namespace radiustheme\Greenova_Core;
-// phpcs:disable WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound
+// phpcs:disable WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound, WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedHooknameFound
 if ( ! defined( 'ABSPATH' ) ) exit;
 $thumb_size = $data['project_thumbnail_size'] ? $data['project_thumbnail_size'] : 'greenova-size7';
 $args       = [

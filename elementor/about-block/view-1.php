@@ -6,7 +6,7 @@
  */
 
 namespace radiustheme\Greenova_Core;
-// phpcs:disable WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound
+// phpcs:disable WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound, WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedHooknameFound
 if ( ! defined( 'ABSPATH' ) ) exit;
 $target   = $data['button_url']['is_external'] ? ' target="_blank"' : '';
 $nofollow = $data['button_url']['nofollow'] ? ' rel="nofollow"' : '';

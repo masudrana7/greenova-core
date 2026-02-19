@@ -6,7 +6,7 @@
  */
 
 namespace radiustheme\Greenova_Core;
-// phpcs:disable WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound
+// phpcs:disable WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound, WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedHooknameFound
 if ( ! defined( 'ABSPATH' ) ) exit;
 $paly_icon = 'fa fa-play';
 if ( $data['btn_icon'] ) {
