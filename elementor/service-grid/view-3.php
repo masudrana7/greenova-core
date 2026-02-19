@@ -113,7 +113,7 @@ $shadow              = 'shadow';
 						<?php } ?>
 						<?php if ( 'visible' == $data['excerpt_visibility'] ) : ?>
                             <p class="service-excerpt">
-								<?php echo wp_strip_all_tags( strip_shortcodes( $content ) ); ?>
+								<?php echo esc_html( wp_strip_all_tags( strip_shortcodes( $content ) ) ); ?>
                             </p>
 						<?php endif; ?>
                     </div>
@@ -135,7 +135,7 @@ $shadow              = 'shadow';
 			$nofollow = $data['view_all_btn_url']['nofollow'] ? ' rel="nofollow"' : '';
 			?>
             <div class="rt-grid-fill-btn">
-                <a href="<?php echo esc_url( $data['view_all_btn_url']['url'] ); ?>" class="btn-square-transparent" <?php echo( $target
+                <a href="<?php echo esc_url( $data['view_all_btn_url']['url'] ); ?>" class="btn-square-transparent" <?php echo esc_attr( $target
 				                                                                                                                . $nofollow ) ?>><?php echo esc_html( $data['view_all_btn_text'] ); ?></a>
             </div>
 		<?php } ?>

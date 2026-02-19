@@ -60,7 +60,7 @@ if ( 'left' == $data['video_position'] ) {
 				}
 				?>
                 <div class="entry-content">
-                    <a class="<?php echo esc_attr( $data['btn_style'] . ' ' . $show_cion ); ?>" href="<?php echo esc_attr( $data['btn_link']['url'] ); ?>" <?php echo( $target
+                    <a class="<?php echo esc_attr( $data['btn_style'] . ' ' . $show_cion ); ?>" href="<?php echo esc_attr( $data['btn_link']['url'] ); ?>" <?php echo esc_attr( $target
 					                                                                                                                                                   . $nofollow ); ?>>
                         <span><?php echo esc_html( $data['btn_text'] ); ?></span>
                     </a>
@@ -71,7 +71,7 @@ if ( 'left' == $data['video_position'] ) {
 		<?php if ( $data['video_link'] ) : ?>
             <div class="<?php echo esc_attr( $right_col ); ?> video-wrapper">
                 <div class="rtin-video-content">
-					<?php echo $wp_embed->run_shortcode( '[embed]' . $data['video_link'] . '[/embed]' ); ?>
+					<?php echo wp_kses_post( $wp_embed->run_shortcode( '[embed]' . $data['video_link'] . '[/embed]' ) ); ?>
                 </div>
             </div>
 		<?php endif; ?>

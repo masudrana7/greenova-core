@@ -7,6 +7,8 @@ Description: Greenova Core Plugin for Greenova Theme
 Version: 2.2.7
 Author: RadiusTheme
 Author URI: http://radiustheme.com
+License: GPLv2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
 */
 
 define( 'GREENOVA_CORE_UPDATE_1', true );

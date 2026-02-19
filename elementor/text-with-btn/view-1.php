@@ -35,7 +35,7 @@ if ( $data['btn_style'] == 'rt-custom-button' ) {
 		?>
         <div class="entry-content">
             <a class="<?php echo esc_attr( $data['btn_style'] . ' ' . $show_cion ); ?>"
-               href="<?php echo esc_attr( $data['btn_link']['url'] ); ?>" <?php echo( $target . $nofollow ); ?>>
+               href="<?php echo esc_attr( $data['btn_link']['url'] ); ?>" <?php echo esc_attr( $target . $nofollow ); ?>>
                 <span><?php echo esc_html( $data['btn_text'] ); ?></span>
             </a>
         </div>

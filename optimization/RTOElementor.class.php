@@ -74,7 +74,7 @@ class RTOElementor{
                 }
             </style>
         <?php
-        echo ob_get_clean();
+        echo ob_get_clean(); //phpcs:disable WordPress.Security.EscapeOutput.OutputNotEscaped;
 
     }
 

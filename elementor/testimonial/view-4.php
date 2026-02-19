@@ -85,9 +85,9 @@ $owl_data = json_encode( $data['owl_data'] );
                         </div>
 					<?php endif; ?>
                     <div class="rtin-testi-content content-wrapper">
-                        <img class="left-img" src="<?php echo GREENOVA_IMG_URL; ?>left_quot.png" alt="left quote">
+                        <img class="left-img" src="<?php echo esc_url( GREENOVA_IMG_URL ); ?>left_quot.png" alt="left quote">
 						<?php echo esc_html( $content ); ?>
-                        <img class="right-img" src="<?php echo GREENOVA_IMG_URL; ?>right_quot.png" alt="right quote">
+                        <img class="right-img" src="<?php echo esc_url( GREENOVA_IMG_URL ); ?>right_quot.png" alt="right quote">
                     </div>
                     <div class="rtin-testi-img">
                         <h3 class="item-title"><?php the_title(); ?></h3>
