@@ -725,8 +725,8 @@ class RT_Image_Carousel extends Custom_Widget_Base {
 		$slides_count = count( $settings['carousel'] );
 
 		?>
-        <div <?php echo $this->get_render_attribute_string( 'carousel-wrapper' ); ?>>
-            <div <?php echo $this->get_render_attribute_string( 'carousel' ); ?>>
+        <div <?php echo wp_kses_post( $this->get_render_attribute_string( 'carousel-wrapper' ) ); ?>>
+            <div <?php echo wp_kses_post( $this->get_render_attribute_string( 'carousel' ) ); ?>>
 				<?php echo wp_kses_post( implode( '', $slides ) ); ?>
             </div>
 			<?php if ( 1 < $slides_count ) : ?>

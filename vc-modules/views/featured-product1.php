@@ -155,7 +155,7 @@ $wp_query   = $query;
 						<div class="single-part">
 							<div class="button">
 							<form action="<?php echo esc_url( $product->add_to_cart_url() ); ?>" class="cart" method="post" enctype='multipart/form-data'>
-								<button style="color:<?php echo esc_attr( $button_color ); ?>" type="submit" data-quantity="1" data-product_id="<?php echo $product->get_id(); ?>"
+								<button style="color:<?php echo esc_attr( $button_color ); ?>" type="submit" data-quantity="1" data-product_id="<?php echo esc_attr( $product->get_id() ); ?>"
 									class="button alt ajax_add_to_cart add_to_cart_button product_type_simple"><i aria-hidden="true" class="flaticon-green-shopping-cart"></i><?php echo esc_html ( $label ); ?></button>
 							</form>
 							</div>
