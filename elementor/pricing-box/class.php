@@ -80,7 +80,8 @@ class Pricing_Box extends Custom_Widget_Base {
 			[
 				'label'       => __( 'Feature', 'greenova-core' ),
 				'type'        => \Elementor\Controls_Manager::WYSIWYG,
-				'default'     => __( '<ul> <li>Investment Plan</li> <li>Education Loan</li> <li>Tax Planning</li> <li>BLANK</li> </ul>', 'greenova-core' ),
+				// phpcs:ignore WordPress.WP.I18n.NoHtmlWrappedStrings
+			'default'     => __( '<ul> <li>Investment Plan</li> <li>Education Loan</li> <li>Tax Planning</li> <li>BLANK</li> </ul>', 'greenova-core' ),
 				'placeholder' => __( 'One line per feature. Put BLANK keyword if you want blank line.', 'greenova-core' ),
 			]
 		);

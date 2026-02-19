@@ -4,7 +4,7 @@
  * @since   1.0
  * @version 1.0
  */
-// phpcs:disable WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound, WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedFunctionFound, WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedHooknameFound
+// phpcs:disable WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound, WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedFunctionFound, WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedHooknameFound, WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedConstantFound
 if ( ! defined( 'ABSPATH' ) ) exit;
 if ( ! defined( 'RT_VC_FLATICON_ASSETS' ) ) {
 	define( 'RT_VC_FLATICON_ASSETS',  GREENOVA_CORE_BASE_URL . 'vc-flaticon/assets/' );

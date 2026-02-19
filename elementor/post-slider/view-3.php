@@ -118,8 +118,7 @@ $has_sec_title = $data['show_section_title'] ? " has-section-title" : NULL;
 						<?php endif; ?>
 
 						<?php if ( $data['author_visibility'] ) : ?>
-                            <span class="by-author post-meta"><i class="fa fa-user-circle" aria-hidden="true"></i><?php esc_html_e( '<span> By </span>', 'greenova-core' )
-							                                                                                            . the_author_posts_link(); ?></span>
+                            <span class="by-author post-meta"><i class="fa fa-user-circle" aria-hidden="true"></i><span><?php esc_html_e( 'By', 'greenova-core' ); ?> <?php the_author_posts_link(); ?></span></span>
 						<?php endif; ?>
 						<?php if ( 'visible' == $data['readmore_visibility'] ) : ?>
                             <div class="readmore-wrapper">

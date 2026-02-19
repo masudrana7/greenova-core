@@ -119,8 +119,7 @@ $has_sec_title = $data['show_section_title'] ? " has-section-title" : NULL;
                         <h3 class='entry-title'><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
                         <ul>
 							<?php if ( $data['author_visibility'] ) : ?>
-                                <li class="green-author post-meta"><i class="fa fa-user" aria-hidden="true"></i><?php esc_html_e( '<span> By </span>', 'greenova-core' )
-								                                                                                      . the_author_posts_link(); ?></li>
+                                <li class="green-author post-meta"><i class="fa fa-user" aria-hidden="true"></i><span><?php esc_html_e( 'By', 'greenova-core' ); ?> <?php the_author_posts_link(); ?></span></li>
 							<?php endif; ?>
 							<?php if ( $data['comment_visibility'] ) : ?>
                                 <li class="post-meta"><i class="far fa-comment" aria-hidden="true"></i><a

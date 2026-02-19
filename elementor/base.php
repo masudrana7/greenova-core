@@ -40,6 +40,12 @@ abstract class Custom_Widget_Base extends Widget_Base {
 		return [ $this->rt_category ];
 	}
 	public function rt_template( $template, $data ) {
+
+		// Sanitize template name to prevent Local File Inclusion (LFI)
+		$template = preg_replace( '/[^a-zA-Z0-9_\-]/', '', $template );
+		if ( empty( $template ) ) {
+			return;
+		}
 		$template_name = DIRECTORY_SEPARATOR . 'elementor-custom' . DIRECTORY_SEPARATOR . basename( $this->rt_dir ) . DIRECTORY_SEPARATOR . $template . '.php';
 		if ( file_exists( get_stylesheet_directory() . $template_name ) ) {
 			$file = get_stylesheet_directory() . $template_name;
@@ -48,7 +54,6 @@ abstract class Custom_Widget_Base extends Widget_Base {
 		} else {
 			$file = $this->rt_dir . DIRECTORY_SEPARATOR . $template . '.php';
 		}
-
 		ob_start();
 		include $file;
 		echo ob_get_clean(); //phpcs:disable
@@ -65,7 +70,6 @@ abstract class Custom_Widget_Base extends Widget_Base {
 			foreach ( $terms as $term ) {
 				$options[ $term->slug ] = $term->name;
 			}
-
 			return $options;
 		}
 	}
