@@ -51,6 +51,7 @@ endif;
 
 if ( $data['exclude'] ) :
 	$excluded_ids         = explode( ',', $data['exclude'] );
+	// phpcs:ignore WordPressVIPMinimum.Performance.WPQueryParams.PostNotIn_post__not_in
 	$args['post__not_in'] = $excluded_ids;
 endif;
 
@@ -60,6 +61,7 @@ if ( $data['offset'] ) {
 }
 
 if ( ! empty( $cat ) ) {
+	// phpcs:ignore WordPress.DB.SlowDBQuery.slow_db_query_tax_query
 	$args['tax_query'] = [
 		[
 			'taxonomy' => 'greenova_testimonial_category',
@@ -142,7 +144,7 @@ $col_class           = "col-md-{$gird_column_desktop} col-sm-{$gird_column_tab} 
 			<?php if ( 'visible' == $data['pagination_visibility'] ) : ?>
                 <div class="mt20 col-sm-12 col-xs-12 pagination-wrapper"><?php \GREENOVA_Theme_Helper::pagination(); ?></div>
 			<?php endif; ?>
-			<?php wp_reset_query(); ?>
+			<?php wp_reset_postdata(); ?>
 
 
 		<?php } else { ?>

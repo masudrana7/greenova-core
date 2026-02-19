@@ -105,6 +105,7 @@ class Before_After extends Custom_Widget_Base {
 			\Elementor\Group_Control_Image_Size::get_type(),
 			[
 				'name'    => 'thumbnail2',
+				// phpcs:ignore WordPressVIPMinimum.Performance.WPQueryParams.PostNotIn_exclude
 				'exclude' => [ 'custom' ],
 				'include' => [],
 				'default' => 'full',

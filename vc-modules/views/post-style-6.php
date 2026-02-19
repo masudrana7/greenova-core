@@ -57,6 +57,6 @@ $slider_dot_class = ( $slider_dots == 'true' ) ? ' slider-dot-enabled' : '';
 			<?php esc_html_e( 'No Post Found' , 'greenova-core' ); ?>
 		</div>
 	<?php } ?>
-	<?php wp_reset_query();?>
+	<?php wp_reset_postdata();?>
 	</div>
 </div>

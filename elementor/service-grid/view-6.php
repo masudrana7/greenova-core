@@ -52,6 +52,7 @@ endif;
 
 if ( $data['exclude'] ) :
 	$excluded_ids         = explode( ',', $data['exclude'] );
+	// phpcs:ignore WordPressVIPMinimum.Performance.WPQueryParams.PostNotIn_post__not_in
 	$args['post__not_in'] = $excluded_ids;
 endif;
 
@@ -153,5 +154,5 @@ $shadow              = 'shadow';
 			<?php esc_html_e( 'No Post Found', 'greenova-core' ); ?>
         </div>
 	<?php } ?>
-	<?php wp_reset_query(); ?>
+	<?php wp_reset_postdata(); ?>
 </div>

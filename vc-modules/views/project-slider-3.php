@@ -15,6 +15,7 @@ $args = array(
 	'order'			 => $order,
 );
 if ( !empty( $cat ) ) {
+	// phpcs:ignore WordPress.DB.SlowDBQuery.slow_db_query_tax_query
 	$args['tax_query'] = array(
 		array(
 			'taxonomy' => 'greenova_service_category',
@@ -67,7 +68,7 @@ $slider_nav_class = ( $slider_dots == 'false' ) ? '' : ' slider-nav-enabled';
 			</div>
 		</div>
 		<?php endwhile;?>
-		<?php wp_reset_query();?>
+		<?php wp_reset_postdata();?>
 		<?php } else { ?>
 			<div class="rtin-single-team">
 				<?php esc_html_e( 'No Project Found' , 'greenova-core' ); ?>

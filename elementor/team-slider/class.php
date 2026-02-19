@@ -140,6 +140,7 @@ class Team_Carousel extends Custom_Widget_Base {
 					'parent'         => __( 'Post parent ID', 'greenova-core' ),
 					'comment_count'  => __( 'Number of comments', 'greenova-core' ),
 					'menu_order'     => __( 'Menu order', 'greenova-core' ),
+					// phpcs:ignore WordPress.DB.SlowDBQuery.slow_db_query_meta_value
 					'meta_value'     => __( 'Meta value', 'greenova-core' ),
 					'meta_value_num' => __( 'Meta value number', 'greenova-core' ),
 					'rand'           => __( 'Random order', 'greenova-core' ),

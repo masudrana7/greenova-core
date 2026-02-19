@@ -97,7 +97,7 @@ $thumbnail = false;
 			</div>
 		</div>
 		<?php endwhile;?>
-		<?php wp_reset_query();?>
+		<?php wp_reset_postdata();?>
 		<?php } else { ?>
 			<div class="rtin-single-team">
 				<?php esc_html_e( 'No Project Found' , 'greenova-core' ); ?>

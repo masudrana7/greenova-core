@@ -14,6 +14,7 @@ $args = array(
 	'order'			 => $order,
 );
 if ( !empty( $cat ) ) {
+	// phpcs:ignore WordPress.DB.SlowDBQuery.slow_db_query_tax_query
 	$args['tax_query'] = array(
 		array(
 			'taxonomy' => 'greenova_testimonial_category',
@@ -54,7 +55,7 @@ $slider_dot_class = ( $slider_dots == 'true' ) ? ' slider-dot-enabled' : '';
 					</div>
 				</div>
 			<?php endwhile;?>
-		<?php wp_reset_query();?>
+		<?php wp_reset_postdata();?>
 		<?php } else { ?>
 			<div class="rtin-single-testimonial">
 				<?php esc_html_e( 'No Testimonial Found' , 'greenova-core' ); ?>

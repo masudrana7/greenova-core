@@ -45,6 +45,7 @@ endif;
 
 if ( $data['exclude'] ) :
 	$excluded_ids         = explode( ',', $data['exclude'] );
+	// phpcs:ignore WordPressVIPMinimum.Performance.WPQueryParams.PostNotIn_post__not_in
 	$args['post__not_in'] = $excluded_ids;
 endif;
 
@@ -140,7 +141,7 @@ $has_sec_title = $data['show_section_title'] ? " has-section-title" : NULL;
                     </div>
                 </div>
 			<?php endwhile; ?>
-			<?php wp_reset_query(); ?>
+			<?php wp_reset_postdata(); ?>
 		<?php } else { ?>
             <div class="rtin-single-team">
 				<?php esc_html_e( 'No Project Found', 'greenova-core' ); ?>

@@ -26,6 +26,7 @@ $args = array(
 	'order'			 => $order,
 );
 if ( !empty( $cat ) ) {
+	// phpcs:ignore WordPress.DB.SlowDBQuery.slow_db_query_tax_query
 	$args['tax_query'] = array(
 		array(
 			'taxonomy' => 'greenova_project_category',
@@ -121,7 +122,7 @@ $wp_query   = $query;
 		<?php if ( $show_pagination == 'true' ) { ?>
 		<div class="mt20 col-sm-12 col-xs-12 pagination-wrapper"><?php GREENOVA_Theme_Helper::pagination();?></div>
 		<?php } ?>
-		<?php wp_reset_query();?>
+		<?php wp_reset_postdata();?>
 		<?php } else { ?>
 			<div class="<?php echo esc_attr( $col_class ); ?>">
 				<?php esc_html_e( 'No Project Found' , 'greenova-core' ); ?>

@@ -67,6 +67,6 @@ $slider_nav_class = ( $slider_nav == 'true' ) ? ' slider-nav-enabled' : '';
 			<?php esc_html_e( 'No Post Found' , 'greenova-core' ); ?>
 		</div>
 	<?php } ?>
-	<?php wp_reset_query();?>
+	<?php wp_reset_postdata();?>
 	</div>
 </div>

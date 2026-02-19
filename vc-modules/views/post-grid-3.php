@@ -82,6 +82,6 @@ $col_class = "col-lg-$col_lg col-md-$col_md col-sm-$col_sm col-xs-$col_xs";
 			<?php esc_html_e( 'No Post Found' , 'greenova-core' ); ?>
 		</div>
 	<?php } ?>
-	<?php wp_reset_query();?>
+	<?php wp_reset_postdata();?>
 	</div>
 </div>

@@ -25,6 +25,7 @@ $args = array(
 	'order'			 => $order,
 );
 if ( !empty( $cat ) ) {
+	// phpcs:ignore WordPress.DB.SlowDBQuery.slow_db_query_tax_query
 	$args['tax_query'] = array(
 		array(
 			'taxonomy' => 'green_team_cat',
@@ -100,6 +101,6 @@ $wp_query   = $query;
 				<?php esc_html_e( 'No Team Found' , 'greenova-core' ); ?>
 			</div>
 		<?php } ?>
-	<?php wp_reset_query();?>
+	<?php wp_reset_postdata();?>
 	</div>
 </div>

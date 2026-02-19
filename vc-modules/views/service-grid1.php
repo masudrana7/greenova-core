@@ -27,6 +27,7 @@ $args = array(
 );
 
 if ( !empty( $cat ) ) {
+	// phpcs:ignore WordPress.DB.SlowDBQuery.slow_db_query_tax_query
 	$args['tax_query'] = array(
 		array(
 			'taxonomy' => 'greenova_service_category',
@@ -104,5 +105,5 @@ $wp_query   = $query;
 			</div>
 		<?php } ?>
 	</div>
-	<?php wp_reset_query();?>
+	<?php wp_reset_postdata();?>
 </div>

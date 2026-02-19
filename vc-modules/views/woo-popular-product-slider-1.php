@@ -20,6 +20,7 @@ $args = array(
 	'posts_per_page'      => $slider_item_number,
 	'orderby'	  		  => $orderby,
 	'order'		  		  => $order,
+	// phpcs:ignore WordPress.DB.SlowDBQuery.slow_db_query_meta_query
 	'meta_query'          => $meta_query,
 );
 
@@ -122,6 +123,6 @@ $slider_dots_class = ( $slider_dots == 'true' ) ? ' slider-dot-enabled' : '';
 			<?php esc_html_e( 'No Product Found' , 'greenova-core' ); ?>
 		</div>
 	<?php } ?>
-	<?php wp_reset_query();?>
+	<?php wp_reset_postdata();?>
 	</div>
 </div>

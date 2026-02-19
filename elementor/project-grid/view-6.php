@@ -55,6 +55,7 @@ endif;
 
 if ( $data['exclude'] ):
 	$excluded_ids         = explode( ',', $data['exclude'] );
+	// phpcs:ignore WordPressVIPMinimum.Performance.WPQueryParams.PostNotIn_post__not_in
 	$args['post__not_in'] = $excluded_ids;
 endif;
 
@@ -149,7 +150,7 @@ $nofollow = $data['view_all_btn_url']['nofollow'] ? ' rel="nofollow"' : '';
 		<?php } ?>
 
 
-		<?php wp_reset_query(); ?>
+		<?php wp_reset_postdata(); ?>
 	<?php } else { ?>
         <div class="<?php echo esc_attr( $col_class ); ?>">
 			<?php esc_html_e( 'No Project Found', 'greenova-core' ); ?>

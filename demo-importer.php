@@ -256,6 +256,7 @@ function greenova_core_importer_after_demo_install( $collection ){
 	// Update post author id
     global $wpdb;
     $id = get_current_user_id();
+    // phpcs:ignore WordPress.DB.DirectDatabaseQuery.DirectQuery, WordPress.DB.DirectDatabaseQuery.NoCaching
     $query = "UPDATE $wpdb->posts SET post_author = $id";
     $wpdb->query($query); // phpcs:disable WordPress.DB.PreparedSQL.NotPrepared
 }

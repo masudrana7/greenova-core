@@ -15,6 +15,7 @@ $args = array(
 	'order'			 => $order,
 );
 if ( !empty( $cat ) ) {
+	// phpcs:ignore WordPress.DB.SlowDBQuery.slow_db_query_tax_query
 	$args['tax_query'] = array(
 		array(
 			'taxonomy' => 'green_team_cat',
@@ -79,7 +80,7 @@ $slider_nav_class = ( $slider_nav == 'false' ) ? '' : ' slider-nav-enabled';
 			</div>
 		</div>
 		<?php endwhile;?>
-		<?php wp_reset_query();?>
+		<?php wp_reset_postdata();?>
 		<?php } else { ?>
 			<div class="rtin-single-team">
 				<?php esc_html_e( 'No Team Member Found' , 'greenova-core' ); ?>

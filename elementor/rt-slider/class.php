@@ -575,6 +575,7 @@ class RT_Slider extends Custom_Widget_Base {
 				'name'      => 'thumbnail',
 				'default'   => 'full',
 				'separator' => 'before',
+				// phpcs:ignore WordPressVIPMinimum.Performance.WPQueryParams.PostNotIn_exclude
 				'exclude'   => [
 					'custom',
 				],
