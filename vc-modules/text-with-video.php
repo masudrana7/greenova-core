@@ -69,7 +69,8 @@ if ( !class_exists( 'GREENOVA_Theme_VC_Text_With_Video' ) ) {
 					'param_name' => 'link',
 					'value' => 'https://vimeo.com/51589652',
 					'admin_label' => true,
-					'description' => sprintf( __( 'Enter link to video (Note: read more about available formats at WordPress <a href="%s" target="_blank">codex page</a>).', 'greenova-core' ), 'http://codex.wordpress.org/Embeds#Okay.2C_So_What_Sites_Can_I_Embed_From.3F' ),
+					/* translators: %s: URL to WordPress codex page */
+			'description' => sprintf( __( 'Enter link to video (Note: read more about available formats at WordPress <a href="%s" target="_blank">codex page</a>).', 'greenova-core' ), 'http://codex.wordpress.org/Embeds#Okay.2C_So_What_Sites_Can_I_Embed_From.3F' ),
 				),
 				array(
 					"type" 		 => "textarea_html",

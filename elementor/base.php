@@ -94,11 +94,11 @@ abstract class Custom_Widget_Base extends Widget_Base {
 	//Get all thumbnail size
 	function rt_get_all_image_sizes() {
 		global $_wp_additional_image_sizes;
-		$image_sizes = [ '0' => 'Default Image Size' ];
+		$image_sizes = [ '0' => esc_html__( 'Default Image Size', 'greenova-core' ) ];
 		foreach ( $_wp_additional_image_sizes as $index => $item ) {
-			$image_sizes[ $index ] = __( ucwords( $index . ' - ' . $item['width'] . 'x' . $item['height'] ), 'greenova-core' );
+			$image_sizes[ $index ] = ucwords( $index . ' - ' . $item['width'] . 'x' . $item['height'] );
 		}
-		$image_sizes['full'] = __( "Full Size", 'greenova-core' );
+		$image_sizes['full'] = esc_html__( "Full Size", 'greenova-core' );
 		return $image_sizes;
 	}
 }
