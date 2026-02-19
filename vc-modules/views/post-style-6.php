@@ -4,7 +4,7 @@
  * @since   1.0
  * @version 1.0
  */
-
+if ( ! defined( 'ABSPATH' ) ) exit;
 $thumb_size = 'greenova-size8';
 $args = array(
 	'posts_per_page' => $slider_item_number,	

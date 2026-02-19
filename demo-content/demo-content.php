@@ -239,16 +239,13 @@ class RTDemoimport {
                 'preview_link'      => 'https://radiustheme.com/demo/wordpress/greenova/home-6-onepage/',
             ),
 		);
-
         $import_path   = trailingslashit( GREENOVA_CORE_DEMO_CONTENT ) . 'demo/';
         $config = array();
 		foreach ( $demos_array as $key => $demo ) {
-
             $content = $demo['categories'][0] == 'WPBakery' ? $import_path . 'wpbakery/content.xml' : $import_path . '/elementor/content.xml';
             $export = $demo['categories'][0] == 'WPBakery' ? $import_path . 'wpbakery/export.dat' : $import_path . '/elementor/export.dat';
             $widgets = $demo['categories'][0] == 'WPBakery' ? $import_path . 'wpbakery/widgets.wie' : $import_path . '/elementor/widgets.wie';
             $redux = $demo['categories'][0] == 'WPBakery' ? $import_path . 'wpbakery/redux.json' : $import_path . '/elementor/redux.json';
-
             $config[] = array(
 				'import_file_id'                => $key,
 				'import_file_name'              => $demo['title'],
@@ -259,7 +256,7 @@ class RTDemoimport {
 				'local_import_customizer_file'  => $export,
                 'local_import_redux'           => [
                     [
-                        'file_path'   => $redux,
+                        'file_path'   => $redux, // phpcs:disable PluginCheck.Security.DirectDB.UnescapedDBParameter
                         'option_name' => 'greenova',
                     ],
                 ],

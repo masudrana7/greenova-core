@@ -43,7 +43,7 @@ $content_css = $content_color ? "color:{$content_color};" : "color:{$primary_col
 	<div class="rt-text-with-btn">
 		<div class="data-area">
 		<?php if ( !empty( $content_text ) ) { ?>
-			<<?php echo esc_html( $title_tag ); ?> style="<?php echo esc_attr( $title_css ); ?>"><?php echo rawurldecode( base64_decode( strip_tags( $content_text ) ) );?></<?php echo esc_html( $title_tag ); ?>>
+			<<?php echo esc_html( $title_tag ); ?> style="<?php echo esc_attr( $title_css ); ?>"><?php echo rawurldecode( base64_decode( wp_strip_all_tags( $content_text ) ) );?></<?php echo esc_html( $title_tag ); ?>>
 		<?php } ?>
 		<?php if ( !empty ( $content ) ) { ?>
 			<p style="<?php echo esc_attr( $content_css ); ?>"><?php echo wp_kses_post( $content );?></p>

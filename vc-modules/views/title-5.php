@@ -23,7 +23,7 @@ if( $title_align == "left" ){
 			<p class="rt-section-sub-title-vc" style="color:<?php echo esc_attr( $subtitle_color ); ?>; width:<?php echo esc_attr( $section_width ); ?>%;"><?php echo $content;?></p>
 		<?php } ?>
 		<?php if(!empty($title_5)){ ?>
-			<h2 class="rt-section-title-vc <?php echo esc_attr( $title_font_size_tab );?> <?php echo esc_attr( $title_font_size_mob );?>" style="font-size:<?php echo esc_attr( $title_font_size );?>px; color:<?php echo esc_attr( $title_color ); ?>;"><?php echo rawurldecode( base64_decode( strip_tags( $title_5 ) ) );?></h2>
+			<h2 class="rt-section-title-vc <?php echo esc_attr( $title_font_size_tab );?> <?php echo esc_attr( $title_font_size_mob );?>" style="font-size:<?php echo esc_attr( $title_font_size );?>px; color:<?php echo esc_attr( $title_color ); ?>;"><?php echo rawurldecode( base64_decode( wp_strip_all_tags( $title_5 ) ) );?></h2>
 		<?php } ?>
 	</div>
 </div>

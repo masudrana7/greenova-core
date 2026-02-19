@@ -69,7 +69,7 @@ $slider_dots_class = ( $slider_dots == 'true' ) ? ' slider-dot-enabled' : '';
 						<?php echo wp_kses_post( $thumbnail ); ?>						
 						<?php if ( !empty( $sale_price_date ) ) { 
 							$greenova_countdown_time_2    = trim( $sale_price_date );
-							$greenova_countdown_time = date('Y/m/d H:i:s', $greenova_countdown_time_2);
+							$greenova_countdown_time = gmdate('Y/m/d H:i:s', $greenova_countdown_time_2);
 						?>
 						<div class="rt-sale-countdown" data-time="<?php echo esc_attr( $greenova_countdown_time );?>"></div>
 					</a>

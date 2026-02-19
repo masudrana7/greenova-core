@@ -162,7 +162,7 @@ if ( !class_exists( 'GREENOVA_Theme_VC_Pricing_Box' ) ) {
 
 			$maxwidth = (int) $maxwidth;
 
-			$features = strip_tags( $features ); // remove tags
+			$features = wp_strip_all_tags( $features ); // remove tags
 			$features = preg_split( "/\R/", $features ); // string to array
 			$features = array_map( array( $this, 'validate' ), $features ); // validate
 						

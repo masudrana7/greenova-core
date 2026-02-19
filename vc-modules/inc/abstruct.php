@@ -4,7 +4,7 @@
  * @since   1.0
  * @version 1.0
  */
-
+if ( ! defined( 'ABSPATH' ) ) exit;
 if ( !class_exists( 'GREENOVA_Theme_VC_Modules' ) ) {
 
 	abstract class GREENOVA_Theme_VC_Modules {
@@ -28,8 +28,8 @@ if ( !class_exists( 'GREENOVA_Theme_VC_Modules' ) ) {
 			if ( file_exists( get_stylesheet_directory() . $template_name ) ) {
 				$file = get_stylesheet_directory() . $template_name;
 			}
-			elseif ( file_exists( TEMPLATEPATH . $template_name ) ) {
-				$file = TEMPLATEPATH . $template_name;
+			elseif ( file_exists( get_template_directory() . $template_name ) ) {
+				$file = get_template_directory() . $template_name;
 			}
 			else {
 				$file = plugin_dir_path( __DIR__ ). "views/{$template}.php";

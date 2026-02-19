@@ -4,7 +4,7 @@
  * @since   1.0
  * @version 1.0
  */
-
+if ( ! defined( 'ABSPATH' ) ) exit;
 add_action( 'widgets_init', 'greenova_widgets_init' );
 function greenova_widgets_init() {
 

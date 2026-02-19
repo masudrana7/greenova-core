@@ -19,13 +19,6 @@ define( 'GREENOVA_CORE_DEMO_BASE_URL', plugin_dir_url( __FILE__ ) . 'demo-conten
 
 require_once GREENOVA_CORE_DEMO_CONTENT . 'demo-content.php';
 
-// Text Domain
-add_action( 'init', 'greenova_core_load_textdomain' );
-if ( !function_exists( 'greenova_core_load_textdomain' ) ) {
-	function greenova_core_load_textdomain() {
-		load_plugin_textdomain( 'greenova-core' , false, dirname( plugin_basename( __FILE__ ) ) . '/languages' );
-	}
-}
 add_action( 'after_setup_theme', 'layerslider_init' );
 
 function layerslider_init() {

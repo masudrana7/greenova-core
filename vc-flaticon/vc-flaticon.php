@@ -4,7 +4,7 @@
  * @since   1.0
  * @version 1.0
  */
-
+if ( ! defined( 'ABSPATH' ) ) exit;
 if ( ! defined( 'RT_VC_FLATICON_ASSETS' ) ) {
 	define( 'RT_VC_FLATICON_ASSETS',  GREENOVA_CORE_BASE_URL . 'vc-flaticon/assets/' );
 }

@@ -10,10 +10,10 @@ $custom_class = vc_shortcode_custom_css_class( $css );
 $tabs = vc_param_group_parse_atts($tabs);
 $count1 = 1;
 $count2 = 1;
-$today = date('YmdHis');
+$today = gmdate('YmdHis');
 if( !empty ( $tabs ) ) {
 	foreach($tabs as $key => $tab){
-		$tabs[$key]['uid'] = rand(0, $today);	
+		$tabs[$key]['uid'] = wp_rand(0, $today);	
 	}
 }
 ?>
