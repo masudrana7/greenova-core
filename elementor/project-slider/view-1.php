@@ -118,8 +118,10 @@ $showlink         = $data['show_link'];
                     </div>
                 </div>
 			<?php endwhile; ?>
-			// phpcs:ignore WordPress.WP.DiscouragedFunctions.wp_reset_query_wp_reset_query
-			<?php wp_reset_query(); ?>
+			<?php
+		// phpcs:ignore WordPress.WP.DiscouragedFunctions.wp_reset_query_wp_reset_query
+		wp_reset_query();
+		?>
 		<?php } else { ?>
             <div class="rtin-single-team">
 				<?php esc_html_e( 'No Project Found', 'greenova-core' ); ?>

@@ -102,4 +102,7 @@ $wp_query   = $query;
 		</div>
 	<?php } ?>
 </div>
-<?php wp_reset_postdata();?>
+<?php
+// phpcs:ignore WordPress.WP.DiscouragedFunctions.wp_reset_query_wp_reset_query
+wp_reset_query();
+?>

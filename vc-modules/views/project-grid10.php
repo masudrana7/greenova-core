@@ -138,7 +138,10 @@ $wp_query   = $query;
 				<a href="<?php echo esc_url( $buttonurl );?>" class="grid-fill-btn"><span><?php echo esc_html( $buttontext );?></span></a>
 			</div>
 		<?php } ?>
-		<?php wp_reset_postdata();?>
+		<?php
+		// phpcs:ignore WordPress.WP.DiscouragedFunctions.wp_reset_query_wp_reset_query
+		wp_reset_query();
+		?>
 		<?php } else { ?>
 			<div class="<?php echo esc_attr( $col_class ); ?>">
 				<?php esc_html_e( 'No Project Found' , 'greenova-core' ); ?>

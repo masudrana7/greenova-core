@@ -100,8 +100,10 @@ $owl_data         = json_encode( $data['owl_data'] );
                     </div>
                 </div>
 			<?php endwhile; ?>
-			// phpcs:ignore WordPress.WP.DiscouragedFunctions.wp_reset_query_wp_reset_query
-			<?php wp_reset_query(); ?>
+			<?php
+		// phpcs:ignore WordPress.WP.DiscouragedFunctions.wp_reset_query_wp_reset_query
+		wp_reset_query();
+		?>
 		<?php } else { ?>
             <div class="rtin-single-testimonial">
 				<?php esc_html_e( 'No Testimonial Found', 'greenova-core' ); ?>

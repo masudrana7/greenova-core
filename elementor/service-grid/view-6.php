@@ -155,6 +155,8 @@ $shadow              = 'shadow';
 			<?php esc_html_e( 'No Post Found', 'greenova-core' ); ?>
         </div>
 	<?php } ?>
+	<?php
 	// phpcs:ignore WordPress.WP.DiscouragedFunctions.wp_reset_query_wp_reset_query
-	<?php wp_reset_query(); ?>
+	wp_reset_query();
+	?>
 </div>

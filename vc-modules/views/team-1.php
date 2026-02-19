@@ -77,9 +77,12 @@ $slider_dot_class = ( $slider_dots == 'true' ) ? ' slider-dot-enabled' : ' slide
 					</ul>
 					<?php } ?>
 				</div>
-			</div>		
+			</div>
 			<?php endwhile;?>
-		<?php wp_reset_postdata();?>
+		<?php
+		// phpcs:ignore WordPress.WP.DiscouragedFunctions.wp_reset_query_wp_reset_query
+		wp_reset_query();
+		?>
 		<?php } else { ?>
 			<div class="rtin-single-team">
 				<?php esc_html_e( 'No Team Found' , 'greenova-core' ); ?>

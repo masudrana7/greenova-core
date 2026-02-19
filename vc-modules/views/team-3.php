@@ -63,7 +63,10 @@ $slider_nav_class = ( $slider_nav == 'true' ) ? ' slider-nav-enabled' : '';
 			</div>
 		</div>
 		<?php endwhile;?>
-		<?php wp_reset_postdata();?>
+		<?php
+		// phpcs:ignore WordPress.WP.DiscouragedFunctions.wp_reset_query_wp_reset_query
+		wp_reset_query();
+		?>
 		<?php } else { ?>
 			<div class="rtin-team-box">
 				<?php esc_html_e( 'No Team Found' , 'greenova-core' ); ?>

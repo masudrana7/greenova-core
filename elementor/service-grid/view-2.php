@@ -143,5 +143,7 @@ $col_class           = "col-md-{$gird_column_desktop} col-sm-{$gird_column_tab} 
         </div>
 	<?php } ?>
 </div>
+<?php
 // phpcs:ignore WordPress.WP.DiscouragedFunctions.wp_reset_query_wp_reset_query
-<?php wp_reset_query(); ?>
+wp_reset_query();
+?>
