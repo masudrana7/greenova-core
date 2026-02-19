@@ -85,7 +85,7 @@ $wp_query   = $query;
 				<?php } else { ?>
 				<h3 class="title-bar50"><?php the_title(); ?></h3>
 				<?php } ?>				
-				<p><?php echo wp_strip_all_tags(strip_shortcodes($content));?></p>
+				<p><?php echo esc_html( wp_strip_all_tags(strip_shortcodes($content)) );?></p>
 			</div>
 		</div>
 		<?php endwhile;?>

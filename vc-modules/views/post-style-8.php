@@ -64,7 +64,7 @@ $slider_dots_class = ( $slider_dots == 'true' ) ? ' slider-dot-enabled' : ' slid
 					<?php } ?>
 					<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
 					<p><?php echo wp_kses_post( $content ); ?></p>
-					<span class="by-author"><i class="fa fa-user-circle" aria-hidden="true"></i><?php _e( '<span> By </span>', 'greenova-core' ) . the_author_posts_link();?></span>
+					<span class="by-author"><i class="fa fa-user-circle" aria-hidden="true"></i><?php esc_html_e( 'By', 'greenova-core' ); echo ' '; the_author_posts_link();?></span>
 					</div>
 			</div>			
 		<?php endwhile;?>

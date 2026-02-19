@@ -36,7 +36,7 @@ Class GREENOVA_Theme_Recent_Posts_With_Image_Widget extends WP_Widget {
 		?>
 		<?php echo wp_kses_post($args['before_widget']); ?>
 		<?php if ( $title ) {
-			echo wp_kses_post($args['before_title']) . $title . wp_kses_post($args['after_title']);
+			echo wp_kses_post($args['before_title']) . esc_html( $title ) . wp_kses_post($args['after_title']);
 		} ?>
 		<?php while ( $result_query->have_posts() ) : $result_query->the_post();		
 			$id = get_the_ID();

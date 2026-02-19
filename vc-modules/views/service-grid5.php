@@ -77,7 +77,7 @@ $wp_query   = $query;
 					<?php } else { ?>
 					<h3><?php the_title(); ?></h3>
 					<?php } ?>				
-					<p><?php echo wp_strip_all_tags(strip_shortcodes($content));?></p>
+					<p><?php echo esc_html( wp_strip_all_tags(strip_shortcodes($content)) );?></p>
 					<a class="service-more" href="<?php the_permalink(); ?>"><?php esc_html_e( 'Read More' , 'greenova-core' ); ?><i class="fa fa-angle-right" aria-hidden="true"></i></a>
 				</div>
 			</div>

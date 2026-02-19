@@ -63,7 +63,7 @@ $col_class = "col-lg-$col_lg col-md-$col_md col-sm-$col_sm col-xs-$col_xs";
 						</span>
 						<?php if ( $showcomment == 'true' ){ ?>
 						<span class="comments"><i class="far fa-comments" aria-hidden="true"></i>
-							<a href="<?php echo get_comments_link( get_the_ID() ); ?>"><?php echo esc_html( $greenova_comments_html );?></a>
+							<a href="<?php echo esc_url( get_comments_link( get_the_ID() ) ); ?>"><?php echo esc_html( $greenova_comments_html );?></a>
 						</span>
 						<?php } ?>
 						<p><?php echo wp_kses_post( $content ); ?></p>

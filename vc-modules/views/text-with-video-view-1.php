@@ -27,7 +27,7 @@ global $wp_embed;
 			</div>
 			<div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
 				<div class="rtin-video-content">				
-					<?php echo $wp_embed->run_shortcode('[embed width="' . $video_w . '" height="' . $video_h . '" ]' . $link . '[/embed]'); ?>
+					<?php echo wp_kses_post( $wp_embed->run_shortcode('[embed width="' . absint( $video_w ) . '" height="' . absint( $video_h ) . '" ]' . esc_url( $link ) . '[/embed]') ); ?>
 				</div>
 			</div>
 		</div>

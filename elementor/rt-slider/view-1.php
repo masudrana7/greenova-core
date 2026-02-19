@@ -64,7 +64,7 @@ $slider_option = json_encode( $data['swiper_data'] );
                     <div class="swiper-slide elementor-repeater-item-<?php echo esc_attr($slide['_id']) ?>">
 
                         <div class="slider-inner-wrapper">
-                            <div class="bg <?php echo esc_attr( $slider_zoomout ); ?>" <?php echo $slider_zoomin ?>
+                            <div class="bg <?php echo esc_attr( $slider_zoomout ); ?>" <?php echo esc_attr( $slider_zoomin ); ?>
                                  style="background-image:url(<?php echo esc_url( $image ) ?>)"></div>
 
                             <div class="container">
@@ -72,28 +72,28 @@ $slider_option = json_encode( $data['swiper_data'] );
                                     <div class="col-md-12">
 										<?php if ( $slide['slider_title'] ) : ?>
                                             <div class="slider-title-wrap rt-slider-content-wrap" style="overflow:hidden">
-                                                <h2 style="<?php echo esc_attr( $title_paralax_delay ) ?>" <?php echo( $title_x_paralax . $title_y_paralax . $title_paralax_scale
-												                                                                       . $title_paralax_opacity . $title_paralax_duration ) ?> >
-													<?php echo $slide['slider_title'] ?>
+                                                <h2 style="<?php echo esc_attr( $title_paralax_delay ) ?>" <?php echo esc_attr( $title_x_paralax . $title_y_paralax . $title_paralax_scale
+												                                                                       . $title_paralax_opacity . $title_paralax_duration ); ?> >
+													<?php echo esc_html( $slide['slider_title'] ); ?>
                                                 </h2>
                                             </div>
 										<?php endif; ?>
 
 										<?php if ( $slide['slider_subtitle'] ) : ?>
                                             <div class="slider-subtitle-wrap rt-slider-content-wrap" style="overflow:hidden">
-                                                <h4 style="<?php echo esc_attr( $subtitle_paralax_delay ) ?>" <?php echo( $subtitle_x_paralax . $subtitle_y_paralax
+                                                <h4 style="<?php echo esc_attr( $subtitle_paralax_delay ) ?>" <?php echo esc_attr( $subtitle_x_paralax . $subtitle_y_paralax
 												                                                                          . $subtitle_paralax_scale . $subtitle_paralax_opacity
-												                                                                          . $subtitle_paralax_duration ) ?>><?php echo $slide['slider_subtitle'] ?></h4>
+												                                                                          . $subtitle_paralax_duration ); ?>><?php echo esc_html( $slide['slider_subtitle'] ); ?></h4>
                                             </div>
 										<?php endif; ?>
 
 										<?php if ( $data['button_text'] ) : ?>
                                             <div class="slider-button rt-slider-content-wrap" style="overflow:hidden">
-                                                <div class="slider-btn" style="<?php echo esc_attr( $btn_paralax_delay ) ?>" <?php echo( $btn_x_paralax . $btn_y_paralax
+                                                <div class="slider-btn" style="<?php echo esc_attr( $btn_paralax_delay ) ?>" <?php echo esc_attr( $btn_x_paralax . $btn_y_paralax
 												                                                                                         . $btn_paralax_scale . $btn_paralax_opacity
-												                                                                                         . $btn_paralax_duration ) ?>>
-                                                    <a href="<?php echo esc_url( $slide['slider_link']['url'] ) ?>" class="slider-dark-button" <?php echo $target
-													                                                                                                      . $nofollow; ?>><span><?php echo esc_html( $data['button_text'] ) ?></span></a>
+												                                                                                         . $btn_paralax_duration ); ?>>
+                                                    <a href="<?php echo esc_url( $slide['slider_link']['url'] ) ?>" class="slider-dark-button" <?php echo esc_attr( $target
+													                                                                                                      . $nofollow ); ?>><span><?php echo esc_html( $data['button_text'] ) ?></span></a>
                                                 </div>
                                             </div>
 										<?php endif; ?>
@@ -116,11 +116,11 @@ $slider_option = json_encode( $data['swiper_data'] );
 			<?php if ( $show_arrows ) : ?>
                 <div class="elementor-swiper-button elementor-swiper-button-prev rt-prev">
                     <i class="eicon-chevron-left" aria-hidden="true"></i>
-                    <span class="elementor-screen-only"><?php _e( 'Previous', 'greenova-core' ); ?></span>
+                    <span class="elementor-screen-only"><?php esc_html_e( 'Previous', 'greenova-core' ); ?></span>
                 </div>
                 <div class="elementor-swiper-button elementor-swiper-button-next rt-next">
                     <i class="eicon-chevron-right" aria-hidden="true"></i>
-                    <span class="elementor-screen-only"><?php _e( 'Next', 'greenova-core' ); ?></span>
+                    <span class="elementor-screen-only"><?php esc_html_e( 'Next', 'greenova-core' ); ?></span>
                 </div>
 			<?php endif; ?>
 		<?php endif; ?>

@@ -17,7 +17,7 @@ class GREENOVA_Theme_Address_Widget extends WP_Widget {
 	public function widget( $args, $instance ){
 		echo wp_kses_post( $args['before_widget'] );
 		if ( ! empty( $instance['title'] ) ) {
-			echo wp_kses_post( $args['before_title'] ) . apply_filters( 'widget_title', esc_html( $instance['title'] ) ) . wp_kses_post( $args['after_title'] );
+			echo wp_kses_post( $args['before_title'] ) . esc_html( apply_filters( 'widget_title', $instance['title'] ) ) . wp_kses_post( $args['after_title'] );
 		}
 		?>
 		<ul class="corporate-address">

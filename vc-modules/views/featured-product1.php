@@ -150,7 +150,7 @@ $wp_query   = $query;
 						</div>
 						<?php } ?>
 						<?php if ( $showprice == 'true' ) { ?>
-						<div class="price"><?php echo $product->get_price_html(); ?></div>
+						<div class="price"><?php echo wp_kses_post( $product->get_price_html() ); ?></div>
 						<?php } ?>
 						<div class="single-part">
 							<div class="button">
@@ -170,7 +170,7 @@ $wp_query   = $query;
 								'link_classes' => 'add_to_wishlist single_add_to_wishlist alt wishlist-icon',
 							);
 							?>
-							<div class="wishlist"><?php echo YITH_WCWL_Shortcode::add_to_wishlist( $args );?></div>
+							<div class="wishlist"><?php echo wp_kses_post( YITH_WCWL_Shortcode::add_to_wishlist( $args ) );?></div>
 							<?php } ?>
 							<?php
 								if ( class_exists( 'YITH_Woocompare_Frontend' ) ) {
@@ -179,7 +179,7 @@ $wp_query   = $query;
 										'button_text' => '<i class="fa fa-check"></i>',
 									);
 								$w_list = new YITH_Woocompare_Frontend();
-								echo $w_list->compare_button_sc( '' , '<i class="fa fa-check"></i>' );
+								echo wp_kses_post( $w_list->compare_button_sc( '' , '<i class="fa fa-check"></i>' ) );
 							?>
 							<?php } ?>
 						</div>

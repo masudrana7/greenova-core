@@ -43,9 +43,9 @@ $slider_dot_class = ( $slider_dots == 'true' ) ? ' slider-dot-enabled' : '';
 						<?php if ( has_post_thumbnail() ){ the_post_thumbnail( $thumb_size ,  array( 'class' => 'img-circle' )  ); } ?>
 					</div>
 					<div class="rtin-testi-content" style="color:<?php echo esc_attr( $text_color ); ?>">
-					<img class="left-img" src="<?php echo GREENOVA_IMG_URL; ?>left_quot.png" alt="left quote">
+					<img class="left-img" src="<?php echo esc_url( GREENOVA_IMG_URL ); ?>left_quot.png" alt="left quote">
 					<?php echo esc_html( $content ); ?>
-					<img class="right-img" src="<?php echo GREENOVA_IMG_URL; ?>right_quot.png" alt="right quote">
+					<img class="right-img" src="<?php echo esc_url( GREENOVA_IMG_URL ); ?>right_quot.png" alt="right quote">
 					</div>		
 					<div class="rtin-testi-img">
 						<h3 class="item-title" style="<?php echo esc_attr( $title_css ); ?>"><?php the_title(); ?></h3>

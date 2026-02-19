@@ -86,7 +86,7 @@ $slider_dots_class = ( $slider_dots == 'true' ) ? ' slider-dot-enabled' : '';
 				</div>
 				<?php } ?>
 				<?php if ( $showprice == 'true' ) { ?>
-				<span class="price"><?php echo $product->get_price_html(); ?></span>
+				<span class="price"><?php echo wp_kses_post( $product->get_price_html() ); ?></span>
 				<?php } ?>
 				
 				<div class="single-part">
@@ -109,7 +109,7 @@ $slider_dots_class = ( $slider_dots == 'true' ) ? ' slider-dot-enabled' : '';
 						'link_classes' => 'add_to_wishlist single_add_to_wishlist alt wishlist-icon',
 					);
 					?>
-					<div class="wishlist"><?php echo YITH_WCWL_Shortcode::add_to_wishlist( $args );?></div>
+					<div class="wishlist"><?php echo wp_kses_post( YITH_WCWL_Shortcode::add_to_wishlist( $args ) );?></div>
 					<?php } ?>		
 				</div>
 				

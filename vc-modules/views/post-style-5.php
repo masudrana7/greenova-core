@@ -87,9 +87,9 @@ $thumbnail = false;
 				<h3><a href="<?php the_permalink();?>"><?php the_title();?></a></h3>
 				<ul>
 					<?php if ( GREENOVA_Theme::$options['blog_author_name'] ) { ?>
-					<li class="green-author"><i class="fa fa-user" aria-hidden="true"></i><?php _e( '<span> By </span>', 'greenova-core' ) . the_author_posts_link();?></li>
+					<li class="green-author"><i class="fa fa-user" aria-hidden="true"></i><?php esc_html_e( 'By', 'greenova-core' ); echo ' '; the_author_posts_link();?></li>
 					<?php } if ( GREENOVA_Theme::$options['blog_comment_num'] ) { ?>
-					<li><i class="far fa-comment" aria-hidden="true"></i><a href="<?php echo get_comments_link( get_the_ID() ); ?>"> <?php echo esc_html( $greenova_comments_html );?></a></li>
+					<li><i class="far fa-comment" aria-hidden="true"></i><a href="<?php echo esc_url( get_comments_link( get_the_ID() ) ); ?>"> <?php echo esc_html( $greenova_comments_html );?></a></li>
 					<?php } ?>
 				</ul>
 				<p><?php echo wp_kses_post( $content ); ?></p>

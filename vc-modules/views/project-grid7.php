@@ -109,7 +109,7 @@ $wp_query   = $query;
 							<?php } ?>
 							<div class="tlp-overlay">
 								<p class="link-icon" style="margin-top: 98px;">
-									<a href="<?php the_permalink(); ?>"><img class="attachment-greenova-size5 size-greenova-size5 wp-post-image" src="<?php echo GREENOVA_IMG_URL; ?>plus_icon.png" ></a>
+									<a href="<?php the_permalink(); ?>"><img class="attachment-greenova-size5 size-greenova-size5 wp-post-image" src="<?php echo esc_url( GREENOVA_IMG_URL ); ?>plus_icon.png" ></a>
 								</p>
 							</div>
 						</div>
