@@ -4,7 +4,7 @@
  * @since   1.0
  * @version 1.0
  */
-
+// phpcs:disable WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound
 $flaticons_finance = array(
     array( 'flaticon-finance-money-1' => 'flaticon-finance-money-1' ),
     array( 'flaticon-finance-avatar' => 'flaticon-finance-avatar' ),

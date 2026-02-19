@@ -6,6 +6,7 @@
  */
 
 namespace radiustheme\Greenova_Core;
+// phpcs:disable WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound
 if ( ! defined( 'ABSPATH' ) ) exit;
 ?>
 <div class="rt-vc-counter-4 rt-counter-wrapper">

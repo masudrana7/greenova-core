@@ -6,6 +6,7 @@
  */
 
 namespace radiustheme\Greenova_Core;
+// phpcs:disable WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound
 if ( ! defined( 'ABSPATH' ) ) exit;
 $unit       = $data['unit_name'];
 $price_html = $data['price'];

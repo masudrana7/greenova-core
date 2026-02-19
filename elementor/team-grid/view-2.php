@@ -6,6 +6,7 @@
  */
 
 namespace radiustheme\Greenova_Core;
+// phpcs:disable WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound
 if ( ! defined( 'ABSPATH' ) ) exit;
 $thumb_size = ( $data['thumbnail_size'] ? $data['thumbnail_size'] : 'greenova-size4' );
 if ( get_query_var( 'paged' ) ) {

@@ -4,7 +4,7 @@
  * @since   1.0
  * @version 1.0
  */
-
+// phpcs:disable WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound
 $flaticons_sam = array(
     array( 'flaticon-sam-alarm-clock' => 'flaticon-sam-alarm-clock' ),
     array( 'flaticon-sam-archives' => 'flaticon-sam-archives' ),

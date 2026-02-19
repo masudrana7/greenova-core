@@ -4,7 +4,7 @@
  * @since   1.0
  * @version 1.0
  */
- 
+// phpcs:disable WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound
 $flaticons_green_2 = array(
 
 array( 'flaticon-green-2-chat' => 'flaticon-green-2-chat' ),

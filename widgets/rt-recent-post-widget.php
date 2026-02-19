@@ -3,6 +3,7 @@
 * Widget API: Recent Post Widget class
 * By : Radius Theme
 */
+// phpcs:disable WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedHooknameFound
 Class GREENOVA_Theme_Recent_Posts_With_Image_Widget extends WP_Widget {
 	public function __construct() {
 		$widget_ops = array(

@@ -4,7 +4,7 @@
  * @since   1.0
  * @version 1.0
  */
- 
+// phpcs:disable WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound
 $flaticons_green = array(
 	array( 'flaticon-green-interface' => 'flaticon-green-interface' ) ,
 	array( 'flaticon-green-document' => 'flaticon-green-document' ),

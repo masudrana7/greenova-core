@@ -4,7 +4,7 @@
  * @since   1.0
  * @version 1.0
  */
-
+// phpcs:disable WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound
 $flaticons_custom = array(
     array( 'flaticon-custom-arrows' => 'flaticon-custom-arrows' ),
     array( 'flaticon-custom-commerce' => 'flaticon-custom-commerce' ),
