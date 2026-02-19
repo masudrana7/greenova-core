@@ -1,7 +1,7 @@
 <?php 
 // Security check
 defined('ABSPATH') || die();
-
+// phpcs:disable WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound
 class RTOElementor{
 
     public function __construct(){

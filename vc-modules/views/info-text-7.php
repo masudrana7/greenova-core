@@ -4,7 +4,7 @@
  * @since   1.0
  * @version 1.0
  */
-// phpcs:disable WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound
+// phpcs:disable WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound, WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedHooknameFound
 if ( ! defined( 'ABSPATH' ) ) exit;
 
 $heading = $wrapper_css = $icon_css = $title_css = $content_css = $icon_holder_style = '';

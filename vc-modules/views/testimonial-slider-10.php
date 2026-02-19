@@ -4,7 +4,7 @@
  * @since   1.0
  * @version 1.0
  */
-// phpcs:disable WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound
+// phpcs:disable WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound, WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedHooknameFound
 if ( ! defined( 'ABSPATH' ) ) exit;
 $thumb_size = 'greenova-size3';
 $primary_color_op = GREENOVA_Theme::$options['primary_color'];

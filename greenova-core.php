@@ -10,7 +10,7 @@ Author URI: http://radiustheme.com
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 */
-// phpcs:disable WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound
+// phpcs:disable WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound, WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedFunctionFound
 define( 'GREENOVA_CORE_UPDATE_1', true );
 define( 'GREENOVA_CORE', ( WP_DEBUG ) ? time() : '2.2.0' );
 define( 'GREENOVA_CORE_BASE_URL', plugin_dir_url( __FILE__ ) );
