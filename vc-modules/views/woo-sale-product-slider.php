@@ -4,6 +4,7 @@
  * @since   1.0
  * @version 1.0
  */
+if ( ! defined( 'ABSPATH' ) ) exit;
 
 $thumb_size = 'greenova-size6';
 $meta_query  = WC()->query->get_meta_query();

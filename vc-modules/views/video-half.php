@@ -4,6 +4,7 @@
  * @since   1.0
  * @version 1.0
  */
+if ( ! defined( 'ABSPATH' ) ) exit;
 ?>
 <div class="rt-vc-video rt-<?php echo esc_attr( $background );?>">
 	<?php if ( $title ): ?>

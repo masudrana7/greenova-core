@@ -4,6 +4,7 @@
  * @since   1.0
  * @version 1.0
  */
+if ( ! defined( 'ABSPATH' ) ) exit;
 
 if ( ! class_exists( 'GREENOVA_Theme_VC_Title' ) ) {
 	class GREENOVA_Theme_VC_Title extends GREENOVA_Theme_VC_Modules {

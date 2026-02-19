@@ -4,6 +4,7 @@
  * @since   1.0
  * @version 1.0
  */
+if ( ! defined( 'ABSPATH' ) ) exit;
 $thumb_size = 'greenova-size3';
 $primary_color_op = GREENOVA_Theme::$options['primary_color'];
 $title_css   = $title_color ? "color:{$title_color};" : "color:{$primary_color_op};";

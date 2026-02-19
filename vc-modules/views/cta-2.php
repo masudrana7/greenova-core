@@ -4,6 +4,7 @@
  * @since   1.0
  * @version 1.0
  */
+if ( ! defined( 'ABSPATH' ) ) exit;
 
 $class  = vc_shortcode_custom_css_class( $css );
 $class .= empty( $subtitle ) ? ' rt-no-sub': ' rt-has-sub';

@@ -4,6 +4,7 @@
  * @since   1.0
  * @version 1.0
  */
+if ( ! defined( 'ABSPATH' ) ) exit;
 
 $heading = $wrapper_css = $icon_css = $title_css = $content_css = $show_icon_bord = $icon_holder_style = '';
 

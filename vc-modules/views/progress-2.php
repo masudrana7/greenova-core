@@ -4,6 +4,7 @@
  * @since   1.0
  * @version 1.0
  */
+if ( ! defined( 'ABSPATH' ) ) exit;
 $custom_class = vc_shortcode_custom_css_class( $css );
 $progressbars = vc_param_group_parse_atts($progress_bars);
 $count1 = 1;

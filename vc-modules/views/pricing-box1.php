@@ -1,4 +1,6 @@
 <?php
+if ( ! defined( 'ABSPATH' ) ) exit;
+
 $custom_class = vc_shortcode_custom_css_class( $css );
 
 $style = "";
