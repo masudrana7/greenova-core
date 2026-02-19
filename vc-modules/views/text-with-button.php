@@ -4,6 +4,7 @@
  * @since   1.0
  * @version 1.0
  */
+// phpcs:disable WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound
 if ( ! defined( 'ABSPATH' ) ) exit;
 $title_css = $section_css = '';
 $custom_class = vc_shortcode_custom_css_class( $css );

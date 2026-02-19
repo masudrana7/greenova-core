@@ -4,6 +4,7 @@
  * @since   1.0
  * @version 1.0
  */
+// phpcs:disable WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound
 if ( ! defined( 'ABSPATH' ) ) exit;
 
 $thumb_size = 'greenova-size11';
