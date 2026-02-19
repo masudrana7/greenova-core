@@ -43,8 +43,8 @@ abstract class Custom_Widget_Base extends Widget_Base {
 		$template_name = DIRECTORY_SEPARATOR . 'elementor-custom' . DIRECTORY_SEPARATOR . basename( $this->rt_dir ) . DIRECTORY_SEPARATOR . $template . '.php';
 		if ( file_exists( get_stylesheet_directory() . $template_name ) ) {
 			$file = get_stylesheet_directory() . $template_name;
-		} elseif ( file_exists( TEMPLATEPATH . $template_name ) ) {
-			$file = TEMPLATEPATH . $template_name;
+		} elseif ( file_exists( get_template_directory() . $template_name ) ) {
+			$file = get_template_directory() . $template_name;
 		} else {
 			$file = $this->rt_dir . DIRECTORY_SEPARATOR . $template . '.php';
 		}

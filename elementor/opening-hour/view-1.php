@@ -11,10 +11,10 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 $tabs   = $data['opening_hour_list'];
 $count1 = 1;
 $count2 = 1;
-$today  = date( 'YmdHis' );
+$today  = gmdate( 'YmdHis' );
 if ( ! empty ( $tabs ) ) {
 	foreach ( $tabs as $key => $tab ) {
-		$tabs[ $key ]['uid'] = rand( 0, $today );
+		$tabs[ $key ]['uid'] = wp_rand( 0, $today );
 	}
 }
 ?>
